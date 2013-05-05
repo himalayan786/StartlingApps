@@ -1,0 +1,353 @@
+body{
+	margin:0px 0px 0px 12%;
+	padding:0px;
+	height:100%;
+	width:73%;
+	background: url('../images/background.jpg');/*#8B8378  #8B7D6B #8B7355 */
+}
+/*-------------------------------------------------------Home Page-----------------------*/
+#inside_body{
+	width:98%;
+	margin:5px 0px 0px 0px;
+	padding:1%;
+	height:100%;
+	background:#fff;
+	border:1px solid #EBEBEB;
+
+    -moz-box-shadow: 0px 0px 20px #FEFEF2;
+    -webkit-box-shadow: 0px 0px 20px #FEFEF2;
+    box-shadow: 0px 0px 20px #FEFEF2;
+}
+#inside_body #logo
+{
+	height:90px;
+	width:80%;
+	margin-left:10%;
+	overflow:hidden;
+	cursor:default;
+	margin-top:10px;
+	text-align:center;
+}
+#inside_body #logo_image
+{
+	float:left;
+	overflow:hidden;
+}
+#inside_body #header
+{
+	overflow:hidden;
+	height:33px;
+	width:98%;
+	margin-top:10px;
+	margin-left:1%;
+	text-align:center;
+	padding-top:10px;
+	color:#8B3626;
+	font-size:20px;
+	font-weight:bold;
+	cursor:default;
+	font-family:" Times New Roman";
+	border:1px solid #EBEBEB;
+
+    -moz-box-shadow: 0px 1px 10px #c7c3c7;
+    -webkit-box-shadow: 0px 1px 10px #c7c3c7;
+    box-shadow: 0px 1px 10px #c7c3c7;
+
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+}
+#inside_body #menu
+{
+	height:30px;
+	width:98%;
+	margin-top:15px;
+	margin-left:1%;
+}
+#inside_body #menu a
+{
+	float:left;
+	display:block;
+	text-align:center;
+	text-decoration:none;
+	width:110px;
+	height:25px;
+	font-size:16px;
+	padding-top:5px;
+	margin-right:2px;
+	color:#fff;
+
+    -moz-border-radius: 7px;
+    -webkit-border-radius: 7px;
+    border-radius: 7px;
+}
+#inside_body #menu #nav_current
+{
+	background:#000;
+}
+#inside_body #menu #nav_others
+{
+	background:#8B7355;
+}
+#inside_body #menu #nav_others:hover
+{
+	background:#000;
+}
+#inside_body #notifications
+{
+	width:100%;
+	margin-top:15px;
+	overflow:hidden;
+	cursor:default;
+}
+#inside_body #notifications #notifications_left
+{
+	width:59%;
+	height:410px;
+	overflow:hidden;
+	margin-left:1%;
+	float:left;
+}
+#inside_body #notifications #notifications_right
+{
+	width:37%;
+	height:410;
+	overflow:hidden;
+	margin-left:1%;
+	float:left;
+}
+#inside_body #notifications #notifications_right #note
+{
+	display:block;
+	padding:2px;
+	background:;
+	font-weight:oblique;
+	border:1px solid #BABABA;
+	margin-bottom:5px;
+	font-size:15px;
+}
+/*--------------------------------------------------------------Close Home Page----------*/
+/*--------------------------------------------------------------Start About_Us Page----------*/
+#about_uiit_main
+{
+	width:100%;
+	margin-top:20px;
+	overflow:hidden;
+	cursor:default;
+	font-size:15px;
+}
+#about_uiit_main #about_uiit_main_left
+{
+	width:63%;
+	padding:10px;
+	margin-left:1%;
+	float:left;
+	overflow:hidden;
+	border-right:2px solid #EBEBEB;
+}
+#about_uiit_main #about_uiit_main_right
+{
+	width:31%;
+	padding-left:15px;
+	padding-bottom:15px;
+	float:left;
+	overflow:hidden;/*
+	border-top:2px solid #EBEBEB;
+	border-bottom:2px solid #EBEBEB;
+	border-right:2px solid #EBEBEB;*/
+}
+
+/*--------------------------------------------------------------Close Home Page----------*/
+#academics_left
+{
+	padding:5px;
+	float:left;
+	width:75%;
+	margin-left:1%;
+	margin-top:15px;
+	overflow:hidden;
+}
+#academics_left #profile
+{
+	padding-bottom:10px;
+	overflow:hidden;
+}
+#academics_left #profile img
+{
+	width:120px;
+	height:120px;
+	border:1px solid #EBEBEB;
+	margin-top:25px;
+}
+#academics_left #ul_facilities li
+{
+	color:#660000;
+}
+#academics_menu
+{
+	float:right;
+	width:20%;
+	overflow:hidden;
+	padding-top:10px;
+	padding-bottom:20px;
+}
+#academics_menu_a_current
+{
+	text-decoration:none;
+	display:block;
+	height:25px;
+	width:70%;
+	margin-left:14%;
+	margin-top:15px;
+	border:1px solid #EBEBEB;
+	text-align:center;
+	padding-top:6px;
+	font-weight:bold;
+	color:#1e90ff;
+	cursor:default;
+   -moz-box-shadow: 0px 0px 10px #1e90ff;
+    -webkit-box-shadow: 0px 0px 10px #1e90ff;
+    box-shadow: 0px 0px 10px #1e90ff;
+
+    -moz-border-radius: 17px;
+    -webkit-border-radius: 17px;
+    border-radius: 17px;
+}
+
+#academics_menu_a_current:hover
+{
+	cursor:default;
+   -moz-box-shadow: 0px 0px 10px #1e90ff;
+    -webkit-box-shadow: 0px 0px 10px #1e90ff;
+    box-shadow: 0px 0px 10px #1e90ff;
+}
+#academics_menu_a_others
+{
+	text-decoration:none;
+	display:block;
+	height:25px;
+	width:70%;
+	margin-left:14%;
+	margin-top:15px;
+	border:1px solid #EBEBEB;
+	text-align:center;
+	padding-top:6px;
+	font-weight:bold;
+	color:#000;
+   -moz-box-shadow: 0px 0px 15px #c7c3c7;
+    -webkit-box-shadow: 0px 0px 15px #c7c3c7;
+    box-shadow: 0px 0px 15px #c7c3c7;
+    -moz-border-radius: 7px;
+    -webkit-border-radius: 7px;
+    border-radius: 7px;
+}
+#academics_menu_a_others:hover
+{
+	margin-left:12%;
+   -moz-box-shadow: 0px 0px 10px #1e90ff;
+    -webkit-box-shadow: 0px 0px 10px #1e90ff;
+    box-shadow: 0px 0px 10px #1e90ff;
+}
+#academics_menu_a_header
+{
+	cursor:default;
+	text-decoration:none;
+	display:block;
+	height:25px;
+	width:70%;
+	margin-left:14%;
+	margin-top:15px;
+	border:1px solid #EBEBEB;
+	text-align:center;
+	padding-top:6px;
+	font-weight:bold;
+	color:#000;
+   -moz-box-shadow: 0px 0px 15px #660000;
+    -webkit-box-shadow: 0px 0px 15px #660000;
+    box-shadow: 0px 0px 15px #660000;
+    -moz-border-radius: 7px;
+    -webkit-border-radius: 7px;
+    border-radius: 7px;
+}
+#academics_menu_a_footer
+{
+	text-decoration:none;
+	display:block;
+	height:25px;
+	width:70%;
+	margin-left:14%;
+	margin-top:15px;
+	border:1px solid #EBEBEB;
+	text-align:center;
+	padding-top:6px;
+	font-weight:bold;
+	color:#000;
+   -moz-box-shadow: 0px 0px 15px #c7c3c7;
+    -webkit-box-shadow: 0px 0px 15px #c7c3c7;
+    box-shadow: 0px 0px 15px #c7c3c7;
+    -moz-border-radius: 7px;
+    -webkit-border-radius: 7px;
+    border-radius: 7px;
+}
+#academics_menu_a_contact
+{
+	text-decoration:none;
+	display:block;
+	height:25px;
+	width:40%;
+	margin-left:29%;
+	margin-top:15px;
+	border:1px solid #EBEBEB;
+	text-align:center;
+	padding-top:6px;
+	font-weight:bold;
+	color:#000;
+   -moz-box-shadow: 0px 0px 15px #c7c3c7;
+    -webkit-box-shadow: 0px 0px 15px #c7c3c7;
+    box-shadow: 0px 0px 15px #c7c3c7;
+    -moz-border-radius: 7px;
+    -webkit-border-radius: 7px;
+    border-radius: 7px;
+}
+#academics_menu_a_contact:hover
+{
+	margin-left:27%;
+   -moz-box-shadow: 0px 0px 10px #1e90ff;
+    -webkit-box-shadow: 0px 0px 10px #1e90ff;
+    box-shadow: 0px 0px 10px #1e90ff;
+}
+#academics_menu_a_footer:hover
+{
+	margin-left:12%;
+   -moz-box-shadow: 0px 0px 10px #1e90ff;
+    -webkit-box-shadow: 0px 0px 10px #1e90ff;
+    box-shadow: 0px 0px 10px #1e90ff;
+}
+
+/*----------Table used to represent Syllabus UIIT ----*/
+#table table tr td .first
+{
+	width:40%;
+}
+#table table tr td .sec
+{
+	width:60%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

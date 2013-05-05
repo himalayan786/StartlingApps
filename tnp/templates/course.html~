@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<link href="/static/images/favicon.ico" rel="shortcut icon" type="image/x-icon">
+	<title>TnP Cell UIIT Shimla</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="Description" content="Training and Placement Cell UIIT Shimla welcomes you to TnP Cell web-portal, University Institute of 					Information Technology, Himachal Pradesh University Summerhill, Shimla. Browse through our brochure for more details 					on UIIT and our placement process." />
+	<meta name="keywords" content="tnp uiit, TnP Cell UIIT Shimla,Training and Placement Cell UIIT Shimla, Placements UIIT Shimla,Training UIIT 				Shimla, Placements UIIT, UIIT,University Institute of Information Technology,HPU,
+			Himachal Pradesh University,Summerhill,Shimla,Simla,H.P" />
+	<meta property="og:description"  content="Training and Placement Cell UIIT Shimla, University Institute of Information Technology,
+				 Himachal Pradesh University Shimla" />	
+	<meta property="og:url" content="http://www.tnpuiit.appspot.com/" />
+	<meta property="og:type" content="website" />
+	<meta property="og:title" content="Training and Placement Cell UIIT Shimla, University Institute of Information Technology,
+				 Himachal Pradesh University Shimla" />
+	<link href="/static/styles/main.css" rel="stylesheet" type="text/css">
+</head>
+<body><!----Start of Body -->
+	<div id="inside_body">				<!----Start of inside_body div---------->
+		<div id="logo">				<!----Start of logo div---------->
+			<div id="logo_image">
+				<img src="/static/images/logo.png" width="80" height="80" style="">
+			</div>
+			<div style="font-size:25px;color:#104E8B;margin-top:10px;">
+					University Institute of Information Technology</div>
+			<div style="font-size:14px;color:#104E8B;">
+					Netaji Subhash Chandra Bose Bhavan, Himachal Pradesh University,<br> Summerhill, Shimla, 171005</div>
+		</div>
+		<div id="header">
+		Training and Placement Cell, UIIT
+		</div>
+		<div id="menu">						<!----start of nav menu -->
+			<a href="/" id="nav_others" title="Home UIIT">
+					Home</a>
+			<a href="/about_uiit" id="nav_others" title="About UIIT">
+					About UIIT</a>
+			<a href="/academics" id="nav_current" title="UIIT Academics">
+					Academics</a>
+			<a href="/students" id="nav_others" title="Students Life at UIIT">
+					Students</a>
+			<a href="/placements" id="nav_others" title="Placements UIIT">
+					Placements</a>
+			<a href="/alumni" id="nav_others" title="Alumni UIIT">
+					Alumni</a>
+			<a href="/downloads" id="nav_others" title="Downloads">
+					Downloads</a>
+			<a href="/contact_us" id="nav_others" title="Contact Us">
+					Contact Us</a>
+		</div>							<!----Close of menu -->
+		<div id="about_uiit_main" style=""><!---Start of academics body--->
+			<div id="academics_left">
+				<span style="color:#660000;font-size:18px;font-weight:bold;">Course Outline</span>
+				<p style="color:#660000;"><span style="color:#1e90ff;font-size:15px;font-weight:bold;">Course Offered:</span><br>
+				UIIT imparts instructions for <span style="font-weight:bold;">Becholar of Information Technology</span>
+				(B.Tech(I.T))
+				</p>
+				<p style="color:#660000;"><span style="color:#1e90ff;font-size:15px;font-weight:bold;">
+				Entarnce Examination (Fresh Entry (1st semester)):</span><br>
+				Those candidate who fulfill the elgibility criteria (given below) will be called for entrance examination. 
+				Entrance Examination consist of two papers, each of two hours duration. In each paper, candidate will be required
+				to answer 100 questions of Multiple Choice Type detailed below.
+				<ul style="color:#660000;">
+					<li>PAPER-I
+						<ul type="disc">
+							<li>Physics (50 MCQs)</li>
+							<li>Mathematics (50 MCQs)</li>
+						</ul>
+					</li>
+					<li>PAPER-II
+						<ul type="disc">
+							<li>Aptitude with Logical Reasoning (40 MCQs)</li>
+							<li>IT related GK (40 MCQs)</li>
+							<li>English (20 MCQs)</li>
+						</ul>
+					</li>
+				</ul>
+				</p>
+				<p style="color:#660000;"><span style="color:#1e90ff;font-size:15px;font-weight:bold;">
+				Admission Criteria for Fresh Entry Candidate (1st Semester):</span>
+				<ul style="color:#660000;">
+					<li>Eligibilty: 10+2 with Physics, Mathematics and any one of the other elective subjects 
+					(with 50% marks for GEN and 45% for SC/ST) from any Board/University established by law.</li>
+				</ul>
+				</p>
+				<p style="color:#660000;"><span style="color:#1e90ff;font-size:15px;font-weight:bold;">
+				Admission Criteria for Lateral Entry Candidate (3rd Semester):</span>
+				<ul type="a" style="color:#660000;">
+					<li> 3 years diploma (after 10+3 or metric) from Himachal Pradesh Board of 
+					Technical Education or equivalent with minimum 60% marks in aggregate in IT/CSE.</li>
+					<li>A candidate must have passed B.Sc, with Mathematics and Physics as subjects
+					 with minimum of 60% marks in aggregate from HPU, Shimla or any other University/Institutions 
+					located in Himachal Pradesh.</li>
+					<li>A candidate seeking admission under sponsored catagory under the lateral entry scheme 
+					should have smae eligibility as given above in (a) or (b).</li>
+				</ul>
+				</p>
+				<p style="color:#660000;"><span style="color:#1e90ff;font-size:15px;font-weight:bold;">
+				Number of seats:</span>
+				<ul type="i" style="color:#660000;">
+					<li>Fresh Entry: 60 + 6* + 1 (single girl child)</li>
+					<li>6* (in i) indicates for 10% of sactioned intake approved by AICTE, to provide 
+					consession/programme fee waiver for women economically backward, physically challanged 
+					meritorious students in the ratio of 2:3:1 as per AICTE norms.</li>
+					<li>Lateral Entry: 6 + any seats remaining vacant at 2nd year level.</li>
+				</ul>
+				</p>
+				<p style="color:#1e90ff;">For more details about admissions, go through
+					<spa style="color:blue;"n> UIIT Admissions Prospectus.</span></p>
+			</div>
+			<div id="academics_menu">
+				<a id="academics_menu_a_others" href="/academics" 
+					style="height:45px;">
+				Permanent<br>Faculty</a>
+				<a id="academics_menu_a_others" href="/static/guest.pdf" 
+					style="height:45px;">
+				Guest<br>Faculty</a>
+				<a id="academics_menu_a_others" href="/facilities" 
+					style="">
+				Facilities</a>
+				<a id="academics_menu_a_current" href="/course" 
+					style="height:45px;">
+				Course<br>Outline</a>
+				<a id="academics_menu_a_others" href="/course_syllabus" 
+					style="height:45px;">
+				Course<br>Syllabus</a>
+			</div>
+		</div>
+	</div>		<!----Close of inside_body -->
+	<hr>
+	<div id="footer" style="text-align:center;color:#fff;clear:both; display:block;background:#000;width:98%;font-size:12px;padding:1%;">
+	&copy;All rights reserved with ||Him_Coder||&reg;.<br>
+	Designed, developed by ||Him_Coder||&reg;.
+	Note that this is not the official website for TnP Cell, UIIT Shimla. It is just a sample and developed only for the study and experimental pupose.
+	</div><hr>
+</body>				<!----Close of Body -->
+</html>

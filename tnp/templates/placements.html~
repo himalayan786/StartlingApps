@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<link href="/static/images/favicon.ico" rel="shortcut icon" type="image/x-icon">
+	<title>TnP Cell UIIT Shimla</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="Description" content="Training and Placement Cell UIIT Shimla welcomes you to TnP Cell web-portal, University Institute of 					Information Technology, Himachal Pradesh University Summerhill, Shimla. Browse through our brochure for more details 					on UIIT and our placement process." />
+	<meta name="keywords" content="tnp uiit, TnP Cell UIIT Shimla,Training and Placement Cell UIIT Shimla, Placements UIIT Shimla,Training UIIT 				Shimla, Placements UIIT, UIIT,University Institute of Information Technology,HPU,
+			Himachal Pradesh University,Summerhill,Shimla,Simla,H.P" />
+	<meta property="og:description"  content="Training and Placement Cell UIIT Shimla, University Institute of Information Technology,
+				 Himachal Pradesh University Shimla" />	
+	<meta property="og:url" content="http://www.tnpuiit.appspot.com/" />
+	<meta property="og:type" content="website" />
+	<meta property="og:title" content="Training and Placement Cell UIIT Shimla, University Institute of Information Technology,
+				 Himachal Pradesh University Shimla" />
+	<link href="/static/styles/main.css" rel="stylesheet" type="text/css">
+</head>
+<body><!----Start of Body -->
+	<div id="inside_body">				<!----Start of inside_body div---------->
+		<div id="logo">				<!----Start of logo div---------->
+			<div id="logo_image">
+				<img src="/static/images/logo.png" width="80" height="80" style="">
+			</div>
+			<div style="font-size:25px;color:#104E8B;margin-top:10px;">
+					University Institute of Information Technology</div>
+			<div style="font-size:14px;color:#104E8B;">
+					Netaji Subhash Chandra Bose Bhavan, Himachal Pradesh University,<br> Summerhill, Shimla, 171005</div>
+		</div>
+		<div id="header">
+		Training and Placement Cell, UIIT
+		</div>
+		<div id="menu">						<!----start of nav menu -->
+			<a href="/" id="nav_others" title="Home UIIT">
+					Home</a>
+			<a href="/about_uiit" id="nav_others" title="About UIIT">
+					About UIIT</a>
+			<a href="/academics" id="nav_others" title="UIIT Academics">
+					Academics</a>
+			<a href="/students" id="nav_others" title="Students Life at UIIT">
+					Students</a>
+			<a href="/placements" id="nav_current" title="Placements UIIT">
+					Placements</a>
+			<a href="/alumni" id="nav_others" title="Alumni UIIT">
+					Alumni</a>
+			<a href="/downloads" id="nav_others" title="Downloads">
+					Downloads</a>
+			<a href="/contact_us" id="nav_others" title="Contact Us">
+					Contact Us</a>
+		</div>							<!----Close of menu -->
+		<div id="about_uiit_main" style=""><!---Start of academics body--->
+			<div id="academics_left" style=""><!---Start of academics left side--->
+				<div id="recruitment_img" style="text-align:center;overflow:hidden;">
+				<span style="color:#660000;font-size:18px;font-weight:bold;text-align:center;">
+				Our Past Recruiters</span><br><br>
+				<img src="/static/images/recruiters.jpg" width="90%" height="700" style="border:2px solid #EBEBEB;">
+				</div><br><br>
+				<div id="placement_records" style="text-align:center;overflow:hidden;">
+				<span style="color:#1e90ff;font-size:16px;font-weight:bold;">Our Placement Records:</span><br><br>
+					<table style="border:2px solid #EBEBEB;">
+						<thead style="border:2px solid #EBEBEB;font-weight:bold;color:#1e90ff;">
+							<td style="width:10%;">Sr. No.</td>
+							<td style="width:25%;">Batch</td>
+							<td style="width:60%;">Name of companies</td>
+						</thead>
+						<tr style="color:#660000;">
+							<td style="width:10%;">1</td>
+							<td style="width:25%;">2001-2005</td>
+							<td style="width:50%;">Nucleus Software, Perot Sysytems, HCL Technologies, 
+								Cellebrum(90% Placement)</td>
+						</tr>
+						<tr style="color:#660000;">
+							<td style="width:10%;">2</td>
+							<td style="width:25%;">2002-2006</td>
+							<td style="width:50%;">HCL Technologies, Perot Systems, Nucleus Softwares, Cellebrum
+									Infotech, R.Systems, Mahindra British Telecom, Smart Data Inc.
+									(95% Placement)</td>
+						</tr>
+						<tr style="color:#660000;">
+							<td style="width:10%;">3</td>
+							<td style="width:25%;">2003-2007</td>
+							<td style="width:50%;">Satyam Computer Services, HCL Technologies, Impetus,
+							Perot Sysytems, Tech Mahindra, RMS, Smart Data Inc.(95%+ Placement)</td>
+						</tr>
+						<tr style="color:#660000;">
+							<td style="width:10%;">4</td>
+							<td style="width:25%;">2004-2008</td>
+							<td style="width:50%;">Infosys, Satyam, Tech Mahindra, M Phasis, Impetus, Global Logic,
+								 Sierra Atlantic, Syntel(85%+ Placement)</td>
+						</tr>
+						<tr style="color:#660000;">
+							<td style="width:10%;">5</td>
+							<td style="width:25%;">2005-2009</td>
+							<td style="width:50%;">Infosys, Tech Mahindra, L&T(95%+ Placement)</td>
+						</tr>
+					</table>
+				</div>
+			</div>
+			<div id="academics_menu">
+				<a id="academics_menu_a_current" href="/placements" 
+					style="height:45px;">
+				Past<br>Recruiters</a>
+				<a id="academics_menu_a_others" href="#placement_records" 
+					style="height:45px;">
+				Placement<br>Records</a>
+				<a id="academics_menu_a_others" href="/placements_procedure" 
+					style="height:45px;">
+				Placement<br>Procedure</a>
+			</div>
+		</div>
+	</div>		<!----Close of inside_body -->
+	<hr>
+	<div id="footer" style="text-align:center;color:#fff;clear:both; display:block;background:#000;width:98%;font-size:12px;padding:1%;">
+	&copy;All rights reserved with UIIT, Shimla.<br>
+	Designed, developed and maintained by Kunal Sharma (Student, 3rd Year, UIIT).
+	</div><hr>
+</body>				<!----Close of Body -->
+</html>

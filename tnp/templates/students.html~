@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<link href="/static/images/favicon.ico" rel="shortcut icon" type="image/x-icon">
+	<title>TnP Cell UIIT Shimla</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="Description" content="Training and Placement Cell UIIT Shimla welcomes you to TnP Cell web-portal, University Institute of 					Information Technology, Himachal Pradesh University Summerhill, Shimla. Browse through our brochure for more details 					on UIIT and our placement process." />
+	<meta name="keywords" content="tnp uiit, TnP Cell UIIT Shimla,Training and Placement Cell UIIT Shimla, Placements UIIT Shimla,Training UIIT 				Shimla, Placements UIIT, UIIT,University Institute of Information Technology,HPU,
+			Himachal Pradesh University,Summerhill,Shimla,Simla,H.P" />
+	<meta property="og:description"  content="Training and Placement Cell UIIT Shimla, University Institute of Information Technology,
+				 Himachal Pradesh University Shimla" />	
+	<meta property="og:url" content="http://www.tnpuiit.appspot.com/" />
+	<meta property="og:type" content="website" />
+	<meta property="og:title" content="Training and Placement Cell UIIT Shimla, University Institute of Information Technology,
+				 Himachal Pradesh University Shimla" />
+	<link href="/static/styles/main.css" rel="stylesheet" type="text/css">
+</head>
+<body><!----Start of Body -->
+	<div id="inside_body">				<!----Start of inside_body div---------->
+		<div id="logo">				<!----Start of logo div---------->
+			<div id="logo_image">
+				<img src="/static/images/logo.png" width="80" height="80" style="">
+			</div>
+			<div style="font-size:25px;color:#104E8B;margin-top:10px;">
+					University Institute of Information Technology</div>
+			<div style="font-size:14px;color:#104E8B;">
+					Netaji Subhash Chandra Bose Bhavan, Himachal Pradesh University,<br> Summerhill, Shimla, 171005</div>
+		</div>				<!----Close of logo div---------->
+		<div id="header">		<!----Start of header div---------->
+		Training and Placement Cell, UIIT
+		</div>				<!----Close of header div---------->
+		<div id="menu">						<!----start of nav menu -->
+			<a href="/" id="nav_others" title="Home UIIT">
+					Home</a>
+			<a href="/about_uiit" id="nav_others" title="About UIIT">
+					About UIIT</a>
+			<a href="/academics" id="nav_others" title="UIIT Academics">
+					Academics</a>
+			<a href="/students" id="nav_current" title="Students Life at UIIT">
+					Students</a>
+			<a href="/placements" id="nav_others" title="Placements UIIT">
+					Placements</a>
+			<a href="/alumni" id="nav_others" title="Alumni UIIT">
+					Alumni</a>
+			<a href="/downloads" id="nav_others" title="Downloads">
+					Downloads</a>
+			<a href="/contact_us" id="nav_others" title="Contact Us">
+					Contact Us</a>
+		</div>							<!----Close of menu -->
+		<div id="about_uiit_main" style="">	<!----Start of students content div---------->
+			<div id="students_left" style="float:left;overflow:hidden;width:75%;margin-left:1%;color:#660000;">
+				<table>
+					<tr>
+						<td style="width:59%;padding-right:5px;">
+							<span style="color:#1e90ff;font-size:18px;font-weight:bold;">Utkarsh</span>
+							<p>UIIT's annual cultural Fest with the motto "comming together is a begining, staying 								together is a progress and working together is success" is oragnised and supervised by 								governing body of ITSA (Information Technology Students Association) comprising of 								(President, Vice-President, Finance Secretary, General Manager and Joint Secretary) with full 								support of ITSA members and in assistance by students from all the batches in the month of 								September or October every year.
+								<p>Glimpse of Utkarsh 2010, 2011, 2012 can be seen in the pictures:</p>
+							</p>
+						</td>
+						<td>
+							<img src="/static/images/utkarsh2.jpg"
+								width="100%" height="220" style="border:1px solid #EBEBEB;"><br>
+								<div style="text-align:center;">A shoot at Utkarsh 2012</div>
+						</td>
+					</tr>
+					<tr>
+						<td style="width:59%;">
+							<img src="/static/images/utkarsh1.jpg"
+								width="80%" height="220" style="border:1px solid #EBEBEB;"><br>
+								<div style="text-align:center;width:80%;">Utkarsh 2010</div>
+						</td>
+						<td>
+							<img src="/static/images/utkarsh3.jpg"
+								width="100%" height="220" style="border:1px solid #EBEBEB;"><br>
+								<div style="text-align:center;">Utkarsh 2011</div>
+						</td>
+					</tr>
+				</table>
+			</div>
+		<div id="academics_menu" style="text-align:center;">
+				<span style="font-weight:bold;color:#660000;">Student's Activities</span>
+				<a id="academics_menu_a_current" href="/students" 
+					style="">
+				Utkarsh</a>
+				<a id="academics_menu_a_others" href="/aarohan" 
+					style="">
+				Aarohan</a>
+				<a id="academics_menu_a_others" href="/sports" 
+					style="">
+				Sports</a>
+				<a id="academics_menu_a_others" href="/trips" 
+					style="">
+				Trips</a>
+				<a id="academics_menu_a_others" href="/freshers" 
+					style="height:45px;">
+				Freshers<br>Party</a>
+				<a id="academics_menu_a_others" href="/dinner" 
+					style="height:45px;">
+				Anuual<br>Dinner</a>
+		</div>
+		</div>	<!----Close of students content div---------->
+	</div>		<!----Close of inside_body -->
+	<hr>
+	<div id="footer" style="text-align:center;color:#fff;clear:both; display:block;background:#000;width:98%;font-size:12px;padding:1%;">
+	&copy;All rights reserved with UIIT, Shimla.<br>
+	Designed, developed and maintained by Kunal Sharma (Student, 3rd Year, UIIT).
+	</div><hr>
+</body>				<!----Close of Body -->
+</html>

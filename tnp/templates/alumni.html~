@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<link href="/static/images/favicon.ico" rel="shortcut icon" type="image/x-icon">
+	<title>TnP Cell UIIT Shimla</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="Description" content="Training and Placement Cell UIIT Shimla welcomes you to TnP Cell web-portal, University Institute of 					Information Technology, Himachal Pradesh University Summerhill, Shimla. Browse through our brochure for more details 					on UIIT and our placement process." />
+	<meta name="keywords" content="tnp uiit, TnP Cell UIIT Shimla,Training and Placement Cell UIIT Shimla, Placements UIIT Shimla,Training UIIT 				Shimla, Placements UIIT, UIIT,University Institute of Information Technology,HPU,
+			Himachal Pradesh University,Summerhill,Shimla,Simla,H.P" />
+	<meta property="og:description"  content="Training and Placement Cell UIIT Shimla, University Institute of Information Technology,
+				 Himachal Pradesh University Shimla" />	
+	<meta property="og:url" content="http://www.tnpuiit.appspot.com/" />
+	<meta property="og:type" content="website" />
+	<meta property="og:title" content="Training and Palcement Cell UIIT Shimla, University Institute of Information Technology,
+				 Himachal Pradesh University Shimla" />
+	<link href="/static/styles/main.css" rel="stylesheet" type="text/css">
+</head>
+<body><!----Start of Body -->
+	<div id="inside_body">				<!----Start of inside_body div---------->
+		<div id="logo">				<!----Start of logo div---------->
+			<div id="logo_image">
+				<img src="/static/images/logo.png" width="80" height="80" style="">
+			</div>
+			<div style="font-size:25px;color:#104E8B;margin-top:10px;">
+					University Institute of Information Technology</div>
+			<div style="font-size:14px;color:#104E8B;">
+					Netaji Subhash Chandra Bose Bhavan, Himachal Pradesh University,<br> Summerhill, Shimla, 171005</div>
+		</div>
+		<div id="header">
+		Welcome to Training and Placement Cell, UIIT
+		</div>
+		<div id="menu">						<!----start of nav menu -->
+			<a href="/" id="nav_others" title="Home UIIT">
+					Home</a>
+			<a href="/about_uiit" id="nav_others" title="About UIIT">
+					About UIIT</a>
+			<a href="/academics" id="nav_others" title="UIIT Academics">
+					Academics</a>
+			<a href="/students" id="nav_others" title="Students Life at UIIT">
+					Students</a>
+			<a href="/placements" id="nav_others" title="Placements UIIT">
+					Placements</a>
+			<a href="/alumni" id="nav_current" title="Alumni UIIT">
+					Alumni</a>
+			<a href="/downloads" id="nav_others" title="Downloads">
+					Downloads</a>
+			<a href="/contact_us" id="nav_others" title="Contact Us">
+					Contact Us</a>
+		</div>							<!----Close of menu -->
+			<div style="width:99%;margin-left:5px;margin-top:20px;height:100%;overflow:hidden;cursor:default;">
+			<!----Alumni page div -->
+				<div id="marquee_div" style="width:99%;color:#660000;padding:2px;overflow:hidden;">
+					<marquee style="padding:2px;border:1px dashed #EBEBEB;" scrollamount="4" behavior=alternate >
+						<a href="/contact_us" style="text-decoration:none;color:#1e90ff;">
+						We are strengthening Our Alumni Network. If you are in touch with your classmates,
+							 mail us their contacts.</a>
+					</marquee>
+				</div><br>
+				<div id="placement_records" style="text-align:center;overflow:hidden;">
+					<span style="color:#1e90ff;font-size:16px;font-weight:bold;">Our Alumni</span><br><br>
+					<table style="border:2px solid #EBEBEB;">
+						<thead style="border:2px solid #EBEBEB;font-weight:bold;color:#1e90ff;">
+							<td style="width:10%;">Sr. No.</td>
+							<td style="width:25%;">Batch</td>
+							<td style="width:60%;">Names</td>
+						</thead>
+						<tr style="color:#660000;">
+							<td style="width:10%;">1</td>
+							<td style="width:25%;">2008-2012</td>
+							<td style="width:50%;"><span style="color:#1e90ff;">Infosys:</span><br>
+							Antra Sharma, Saurabh Rana, Suchi Singh, Tanmoy Chakravorty, Harshit Gupta, 
+							Kushal Bhaliak, Mayank Sharma, Anjali Sharma, Bhanu Sharma, Supriya Ghai,
+							Deekshant Thakur, Abhinav Baluni<br>
+							<span style="color:#1e90ff;">Partheas:</span><br>Suchi Singh, Sanjeev Kumar<br>
+								
+							<span style="color:#1e90ff;">Wipro Infotech:</span><br>
+							Vivek sharma, Mohit Bansal, Mohit Sharma, Sumit Pal Singh, Achyut Sharma, Tushan Chauhan, 
+							Alpna Bajaj, Jaideep Bishnoi, Anterpreet Singh, Saurabh Kashab, Sanjeev Kumar, Ashutosh,
+							<br><span style="color:#1e90ff;">Accenture:</span><br>
+							Mayank Sharma
+							<br><span style="color:#1e90ff;">Smart Data:</span><br>
+							Sapna Devi, Amita Sharma, Kiran Kumari, Anant Dutta, Pankaj Thakur,
+							 Rajesh Dadalauch,  Ram Sharma
+							<br><span style="color:#1e90ff;">Saholic.com:</span><br>Kshitij Sood
+							<br><span style="color:#1e90ff;">US Tech Solutions:</span><br>Shristi Thakur
+							<br><span style="color:#1e90ff;">Indian Army:</span><br>Deepak Sharma
+							</td>
+						</tr>						
+					</table>
+				</div>	
+			</div>
+	</div>		<!----Close of inside_body -->
+	<hr>
+	<div id="footer" style="text-align:center;color:#fff;clear:both; display:block;background:#000;width:98%;font-size:12px;padding:1%;">
+	&copy;All rights reserved with ||Him_Coder||&reg;.<br>
+	Designed, developed by ||Him_Coder||&reg;.
+	Note that this is not the official website for TnP Cell, UIIT Shimla. It is just a sample and developed only for the study and experimental pupose.
+	</div><hr>
+</body>				<!----Close of Body -->
+</html>

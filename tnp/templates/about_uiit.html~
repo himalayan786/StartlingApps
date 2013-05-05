@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<link href="/static/images/favicon.ico" rel="shortcut icon" type="image/x-icon">
+	<title>TnP Cell UIIT Shimla</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="Description" content="Training and Placement Cell UIIT Shimla welcomes you to TnP Cell web-portal, University Institute of 					Information Technology, Himachal Pradesh University Summerhill, Shimla. Browse through our brochure for more details 					on UIIT and our placement process." />
+	<meta name="keywords" content="tnp uiit, TnP Cell UIIT Shimla,Training and Placement Cell UIIT Shimla, Placements UIIT Shimla,Training UIIT 				Shimla, Placements UIIT, UIIT,University Institute of Information Technology,HPU,
+			Himachal Pradesh University,Summerhill,Shimla,Simla,H.P" />
+	<meta property="og:description"  content="Training and Placement Cell UIIT Shimla, University Institute of Information Technology,
+				 Himachal Pradesh University Shimla" />	
+	<meta property="og:url" content="http://www.tnpuiit.appspot.com/" />
+	<meta property="og:type" content="website" />
+	<meta property="og:title" content="Training and Placement Cell UIIT Shimla, University Institute of Information Technology,
+				 Himachal Pradesh University Shimla" />
+	<link href="/static/styles/main.css" rel="stylesheet" type="text/css">
+</head>
+<body><!----Start of Body -->
+	<div id="inside_body">				<!----Start of inside_body div---------->
+		<div id="logo">				<!----Start of logo div---------->
+			<div id="logo_image">
+				<img src="/static/images/logo.png" width="80" height="80" style="">
+			</div>
+			<div style="font-size:25px;color:#104E8B;margin-top:10px;">
+					University Institute of Information Technology</div>
+			<div style="font-size:14px;color:#104E8B;">
+					Netaji Subhash Chandra Bose Bhavan, Himachal Pradesh University,<br> Summerhill, Shimla, 171005</div>
+		</div>
+		<div id="header">
+		Training and Placement Cell, UIIT
+		</div>
+		<div id="menu">						<!----start of nav menu -->
+			<a href="/" id="nav_others" title="UIIT Home">
+					Home</a>
+			<a href="/about_uiit" id="nav_current" title="About UIIT">
+					About UIIT</a>
+			<a href="/academics" id="nav_others" title="UIIT Academics">
+					Academics</a>
+			<a href="/students" id="nav_others" title="Students Life at UIIT">
+					Students</a>
+			<a href="/placements" id="nav_others" title="Plecements UIIT">
+					Placements</a>
+			<a href="/alumni" id="nav_others" title="Alumni UIIT">
+					Alumni</a>
+			<a href="/downloads" id="nav_others" title="Downloads">
+					Downloads</a>
+			<a href="/contact_us" id="nav_others" title="Contact UIIT">
+					Contact Us</a>
+		</div>							<!----Close of menu -->
+<!---Starting about main div-->
+		<div id="about_uiit_main">
+			<!---Starting about main left div-->
+			<div id="about_uiit_main_left" style="padding-bottom:20px;">
+			<span style="color:#1e90ff;font-size:18px;font-weight:bold;">An Introduction</span>
+<p style="color:#660000;">UIIT Shimla is a premier institution of excellence in Science and Information Technology that develops professionals and leaders of high calibre imbued with values of entrepreneurship, ethics, and social responsibility. It is functioning under "the Executive Council" of the Himachal Pradesh University since year 2000. It admit students from all over the country to the Bachelor of Technology in Information Technology and imparts training to make them competent, motivated Engineers, Leader, Thinker, and Scientists. The academic program of UIIT is also approved by the All India Council of Technical education.
+
+UIIT Shimla has established itself as a nodal centre for engineering and technical education being imparted through the different engineering institutions affiliated to Himachal Pradesh University. It provides academic and curriculum input to the all engineering and technical institutions affiliated with the University.</p>
+			<p style="color:#1e90ff;font-size:18px;font-weight:bold;">Location:</p>
+			<p style="color:#660000">The University Institute of Information Technology functions in the University Campus, Summerhill, Shimla in the second basement floor of Netaji Subhash Building, Summerhill, H.P. University.</p>
+			<div style="text-align:center;">
+				<img src="/static/images/building.jpg" width="300" height="180" style="border:1px solid #EBEBEB;">
+				<br><span style="color:#1e90ff;">Present Location</span>
+			</div>
+			</div><!--closing about main left div-->
+			<!---Starting about main right div-->
+			<div id="about_uiit_main_right">
+			<div id="messages_menu" style="width:80%;margin-left:10%;text-align:center;">
+				<span style="color:#1e90ff;font-size:15px;font-weight:bold;">Messages and Invitations:</span><br>
+				<a id="academics_menu_a_others" href="/message_vc" 
+					style="height:45px;">
+				Vice Chancellor's<br>Message</a>
+				<a id="academics_menu_a_others" href="/message_director" 
+					style="height:45px;">
+				Director's<br>Message</a>
+				<a id="academics_menu_a_others" href="/co_invitation" 
+					style="height:45px;">
+				Coordinator's<br>Invitation</a>
+				<a id="academics_menu_a_others" href="/tpo_invitation" 
+					style="height:45px;">
+				TPO's<br>Invitation</a>
+			</div><br><br>
+			<span style="color:#1e90ff;font-size:18px;font-weight:bold;">Our Vision:</span>
+			<p style="color:#660000;">
+To be an academic and technical institution with all branches of Technology and Science, work in dynamic equilibrium with its social, scientific, ecological and economic environment, striving continuously for excellence in education, research and technological services to nation.			</p>
+			<p style="color:#1e90ff;font-size:18px;font-weight:bold;">Our Motto:</p>
+			<p style="color:#660000;">Eyes of Knowledge Seeth</p>
+			</div><!---Closing about main right div-->
+		</div>	<!---closing about main div-->
+	</div>		<!----Close of inside_body -->
+	<hr>
+	<div id="footer" style="text-align:center;color:#fff;clear:both; display:block;background:#000;width:98%;font-size:12px;padding:1%;">
+	&copy;All rights reserved with ||Him_Coder||&reg;.<br>
+	Designed, developed by ||Him_Coder||&reg;.
+	Note that this is not the official website for TnP Cell, UIIT Shimla. It is just a sample and developed only for the study and experimental pupose.
+	</div><hr>
+</body>				<!----Close of Body -->
+</html>

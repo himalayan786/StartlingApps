@@ -1,0 +1,558 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<link href="/static/images/favicon.ico" rel="shortcut icon" type="image/x-icon">
+	<title>TnP Cell UIIT Shimla</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="Description" content="Training and Placement Cell UIIT Shimla welcomes you to TnP Cell web-portal, University Institute of 					Information Technology, Himachal Pradesh University Summerhill, Shimla. Browse through our brochure for more details 					on UIIT and our placement process." />
+	<meta name="keywords" content="tnp uiit, TnP Cell UIIT Shimla,Training and Placement Cell UIIT Shimla, Placements UIIT Shimla,Training UIIT 				Shimla, Placements UIIT, UIIT,University Institute of Information Technology,HPU,
+			Himachal Pradesh University,Summerhill,Shimla,Simla,H.P" />
+	<meta property="og:description"  content="Training and Placement Cell UIIT Shimla, University Institute of Information Technology,
+				 Himachal Pradesh University Shimla" />	
+	<meta property="og:url" content="http://www.tnpuiit.appspot.com/" />
+	<meta property="og:type" content="website" />
+	<meta property="og:title" content="Training and Placement Cell UIIT Shimla, University Institute of Information Technology,
+				 Himachal Pradesh University Shimla" />
+	<link href="/static/styles/main.css" rel="stylesheet" type="text/css">
+</head>
+<body><!----Start of Body -->
+	<div id="inside_body">				<!----Start of inside_body div---------->
+		<div id="logo">				<!----Start of logo div---------->
+			<div id="logo_image">
+				<img src="/static/images/logo.png" width="80" height="80" style="">
+			</div>
+			<div style="font-size:25px;color:#104E8B;margin-top:10px;">
+					University Institute of Information Technology</div>
+			<div style="font-size:14px;color:#104E8B;">
+					Netaji Subhash Chandra Bose Bhavan, Himachal Pradesh University,<br> Summerhill, Shimla, 171005</div>
+		</div>
+		<div id="header">
+		Training and Placement Cell, UIIT
+		</div>
+		<div id="menu">						<!----start of nav menu -->
+			<a href="/" id="nav_others" title="Home UIIT">
+					Home</a>
+			<a href="/about_uiit" id="nav_others" title="About UIIT">
+					About UIIT</a>
+			<a href="/academics" id="nav_current" title="UIIT Academics">
+					Academics</a>
+			<a href="/students" id="nav_others" title="Students Life at UIIT">
+					Students</a>
+			<a href="/placements" id="nav_others" title="Placements UIIT">
+					Placements</a>
+			<a href="/alumni" id="nav_others" title="Alumni UIIT">
+					Alumni</a>
+			<a href="/downloads" id="nav_others" title="Downloads">
+					Downloads</a>
+			<a href="/contact_us" id="nav_others" title="Contact Us">
+					Contact Us</a>
+		</div>		<!----Close of menu -->
+		<div id="about_uiit_main" style="border:1px solid #EBEBEB;"><!---Start of academics body--->
+			<div id="academics_left" style=""><!---Start of academics left side--->
+				<span style="color:#660000;font-size:18px;font-weight:bold;text-align:center;">
+				Course Syllabus (Subjects)</span><br><br>
+				<!---Start of Tables--->
+				<div id="table" style="width:98%;float:left;margin-left:1%;color:#660000;">
+					<!-- First Year -->
+					<table style="text-align:center;width:60%;margin-left:19%;border:2px solid #EBEBEB;
+							color:#1e90ff;font-weight:bold;">
+						<tr>
+							<td >First Year</td>
+						</tr>
+					</table><br>
+					<table border="1" style="width:98%;">
+						<tr>
+							<td width="20%" style="color:#1e90ff;">Subject Code</td>
+							<td width="80%" style="color:#1e90ff;">First Year(1st semester)</td>
+						</tr>
+						<tr>
+							<td>AS-1001</td>
+							<td>Applied Maths I</td>
+						</tr>
+						<tr>
+							<td>AS-1002</td>
+							<td>Applied Physics I</td>
+						</tr>
+						<tr>
+							<td>ME-1001</td>
+							<td>Engg. Graphics Drawing</td>
+						</tr>
+						<tr>
+							<td>HU-1003</td>
+							<td>Comm. & Prof. Skills in English</td>
+						</tr>
+						<tr>
+							<td>EC-1001</td>
+							<td>Basic Electronics</td>
+						</tr>
+						<tr>
+							<td>CS-1001</td>
+							<td>Introduction to computers & programming in C</td>
+						</tr>
+						<tr>
+							<td>AS-1003</td>
+							<td>Applied Physics Lab</td>
+						</tr>
+						<tr>
+							<td>EC-1002</td>
+							<td>Basic Electronics Lab</td>
+						</tr>
+						<tr>
+							<td>ME-1002/IT-1001</td>
+     							<td>(Workshop Practical)/Information Technology Trainer Workshop I)</td>
+						</tr>
+						<tr>
+     							<td>CS-1002</td>
+							<td>Computer Programming Lab</td>
+						</tr>
+					</table><br>
+					<table border="1" style="width:98%;">
+						<tr>
+						     <td width="20%" style="color:#1e90ff;">Subject Code</td>
+						     <td width="80%" style="color:#1e90ff;">First Year(2nd semester)</td>
+						</tr>
+						<tr>
+   							<td>AS-1006</td>
+							<td>Applied Maths II</td>
+						</tr>
+						<tr>
+							<td>AS-1007</td>
+							<td>Applied Physics II</td>
+						</tr>
+						<tr>
+							<td>AS-1004/IT 1002</td>
+							<td>Chemistry/Foundation of Information Technology</td>
+						</tr>
+						<tr>
+							<td>HU-1002</td>
+							<td>Science , Technology & Technology</td>
+						</tr>
+						<tr>
+							<td>EE-1001</td>
+							<td>Basic Electrical Engineering</td>
+						</tr>
+						<tr>
+							<td>ME-1003</td>
+							<td>Basic Mechanical Engineering</td>
+						</tr>
+						<tr>
+							<td>AS-1005/IT-1003</td>
+							<td>Applied Chem. Lab/ MATLAB Laboratory</td>
+						</tr>
+						<tr>
+							<td>EE-1002</td>
+							<td>Basic Electrical Engg. Lab</td>
+						</tr>
+						<tr>
+							<td>ME-1004/IT-1004</td>
+							<td>(Workshop Practical II)/Information Technology Trainer Workshop II)</td>
+						</tr>
+						<tr>
+							<td>ME-1005</td>
+							<td>Basic Mechanical Engg. Lab</td>
+						</tr>
+					</table><br><br>
+					<!-- Second Year -->
+					<table style="text-align:center;width:60%;margin-left:19%;border:2px solid #EBEBEB;
+							color:#1e90ff;font-weight:bold;">
+						<tr>
+							<td >Second Year</td>
+						</tr>
+					</table><br>
+					<table border="1" style="width:98%;">
+						<tr>
+							<td width="20%" style="color:#1e90ff;">Subject Code</td>
+							<td width="80%" style="color:#1e90ff;">Second Year(3rd semester)</td>
+						</tr>
+						<tr>
+							<td>HU-3001</td>
+							<td>Fundamental of Economics</td>
+						</tr>
+						<tr>
+							<td>IT(ID)-3001</td>
+							<td>Computer Organization</td>
+						</tr>
+						<tr>
+							<td>IT(ID)-3002</td>
+							<td>Object Oriented Methods & Programming </td>
+						</tr>
+						<tr>
+							<td>IT(ID)-3003</td>
+							<td>Data Structures & Algorithms</td>
+						</tr>
+						<tr>
+							<td>IT-3004</td>
+							<td>Computer Graphics</td>
+						</tr>
+						<tr>
+						     <td>EC(ID)-3001</td>
+						     <td>Digital Electronics</td>
+						</tr>
+						<tr>
+							<td>EC(ID)-3002</td>
+							<td>Digital Electronics Lab</td>
+						</tr>
+						<tr>
+							<td>EC(ID)-3005</td>
+							<td>Data Structure Lab</td>
+						</tr>
+						<tr>
+							<td>IT(ID)-3006</td>
+							<td>Object Oriented Methods & Programming Lab</td>
+						</tr>
+						<tr>
+							<td>IT-3007</td>
+							<td>computer Graphics Lab</td>
+						</tr>
+					</table><br>
+					<table border="1" style="width:98%;">
+						<tr>
+							<td width="20%" style="color:#1e90ff;">Subject Code</td>
+							<td width="80%" style="color:#1e90ff;">Second Year(4th semester)</td>
+						</tr>
+						<tr>
+							<td>IT(ID)-4001</td>
+							<td>Computer Architecture</td>
+						</tr>
+						<tr>
+							<td>IT-4002</td>
+							<td>Operating System Concepts</td>
+						</tr>
+						<tr>
+							<td>IT-4003</td>
+							<td>Discrete Mathematics & Logic Design</td>
+						</tr>
+						<tr>
+     							<td>EC(ID)-4001</td>
+							<td>Digital Communication</td>
+						</tr>
+						<tr>
+							<td>IT(ID)-4004</td>
+							<td>System Analysis and Design (SAD)</td>
+						</tr>
+						<tr>
+							<td>AS-4001</td>
+							<td>Probability /Statistics/ Queuing Theory</td>
+						</tr>
+						<tr>
+							<td>IT-4005</td>
+							<td>Operating System Lab I (Windows NT)</td>
+						</tr>
+						<tr>
+							<td>IT-4006</td>
+							<td>Operating System Lab II (Linux Lab)</td>
+						</tr>
+						<tr>
+							<td>EC(ID)-4002</td>
+							<td>Digital Communication Lab</td>
+						</tr>
+						<tr>
+							<td>IT-4007</td>
+							<td>SAD Project</td>
+						</tr>
+					</table><br><br>
+					<!-- Third Year -->
+					<table style="text-align:center;width:60%;margin-left:19%;border:2px solid #EBEBEB;
+							color:#1e90ff;font-weight:bold;">
+						<tr>
+							<td >Third Year</td>
+						</tr>
+					</table><br>
+					<table border="1" style="width:98%;">
+						<tr>
+							<td width="20%" style="color:#1e90ff;">Subject Code</td>
+							<td width="80%" style="color:#1e90ff;">Third Year(5th semester)</td>
+						</tr>
+						<tr>
+							<td>IT(ID)-5001</td>
+							<td>Software Engineering</td>
+						</tr>
+						<tr>
+							<td>HU-5001</td>
+							<td>Management for IT professionals</td>
+						</tr>
+						<tr>
+							<td>IT(ID)-5002</td>
+							<td>Database Management System</td>
+						</tr>
+						<tr>
+							<td>IT-5003</td>
+							<td>Computer Networks </td>
+						</tr>
+						<tr>
+							<td>IT(ID)-5004</td>
+							<td>visual Programming </td>
+						</tr>
+						<tr>
+							<td>EC-5001</td>
+							<td>Microprocessor,Micro Computers & Interfaces</td>
+						</tr>
+						<tr>
+							<td>IT/EC-5001</td>
+							<td>Microprocessor and Computers Ntework Lab</td>
+						</tr>
+						<tr>
+							<td>IT(ID)-5006</td>
+							<td>Visual Programming Lab</td>
+						</tr>
+						<tr>
+							<td>IT(ID)-5007</td>
+							<td>RDMS Laboratory</td>
+						</tr>
+						<tr>
+							<td>ES-1001</td>
+							<td>Vocational Training</td>
+						</tr>
+					</table><br>
+					<table border="1" style="width:98%;">
+						<tr>
+						     <td width="20%" style="color:#1e90ff;">Subject Code</td>
+						     <td width="80%" style="color:#1e90ff;">Third Year(6th semester)</td>
+						</tr>
+						<tr>
+						     <td>IT-6001</td>
+						     <td>Management Information System</td>
+						</tr>
+						<tr>
+						     <td>IT-6002</td>
+						     <td>Web Technology</td>
+						</tr>
+						<tr>
+						     <td>AS-6001</td>
+						     <td>Numerical and Stat Methods & Scientific Computing</td>
+						</tr>
+						<tr>
+						     <td>IT-6003</td>
+						     <td>Artificial Intelligence</td>
+						</tr>
+						<tr>
+						     <td>IT(ID)-6004</td>
+						     <td>Multimedia Technology </td>
+						</tr>
+						<tr>
+						     <td>IT-6005</td>
+						     <td>Parallel Computing</td>
+						</tr>
+						<tr>
+						     <td>IT-6006</td>
+						     <td>Artificial Intelligence Lab</td>
+						</tr>
+						<tr>
+						     <td>IT-6007</td>
+						     <td>Web Technology Lab</td>
+						</tr>
+						<tr>
+						     <td>AS-6002</td>
+						     <td>Scientific Computing  Lab/ Parallel Computing Lab</td>
+						</tr>
+						<tr>
+						     <td>GP-6001</td>
+						     <td>Seminar</td>
+						</tr>
+					</table><br><br>
+					<!-- Fourth Year -->
+					<table style="text-align:center;width:60%;margin-left:19%;border:2px solid #EBEBEB;
+							color:#1e90ff;font-weight:bold;">
+						<tr>
+							<td >Fourth Year</td>
+						</tr>
+					</table><br>
+					<table border="1" style="width:98%;">
+						<tr>
+						     <td width="20%" style="color:#1e90ff;">SubjectCode</td>
+						     <td width="80%" style="color:#1e90ff;">Fourth Year(7th semester)</td>
+						</tr>
+						<tr>
+						     <td>IT-7001</td>
+						     <td>Natural Language Processing</td>
+						</tr>
+						<tr>
+						     <td>IT-7002</td>
+						     <td>Modelling & Simulations</td>
+						</tr>
+						<tr>
+						     <td>IT-7003</td>
+						     <td>e-Commerce & ERP</td>
+						</tr>
+						<tr>
+						     <td>IT-7004</td>
+						     <td>Internet Technology </td>
+						</tr>
+						<tr>
+						     <td>xx-xxx</td>
+						     <td>Open Elective I </td>
+						</tr>
+						<tr>												     								<td>xx-xxx</td>
+						     <td>Professional Elective I</td>
+						</tr>
+						<tr>
+						     <td>IT-7005</td>
+						     <td>Internet Technology Lab</td>
+						</tr>
+						<tr>
+						     <td>IT-7006</td>
+						     <td>Modelling and Simulation Lab </td>
+						</tr>
+						<tr>
+						     <td>IT-7007</td>
+						     <td>E-Commerce Lab</td>
+						</tr>
+						<tr>
+						     <td>IT-7008</td>
+						     <td>Project 1</td>
+						</tr>
+						<tr>
+						     <td>ES-7001</td>
+						     <td>Vocational Training</td>
+						</tr>
+					</table><br>
+					<table border="1" style="width:98%;">
+						<tr>
+						     <td width="20%" style="color:#1e90ff;">Subject Code</td>
+						     <td width="80%" style="color:#1e90ff;">Fourth Year(8th semester)</td>
+						</tr>
+						<tr>
+						     <td>IT-8001</td>
+						     <td>Human Computer Interaction
+						         User Interface Design </td>
+						</tr>
+						<tr>
+						     <td>IT-8002</td>
+						     <td>Security of Information Ssystems/ Internet Security </td>
+						</tr>
+						<tr>
+						     <td>IT-8003</td>
+						     <td>Data Warehouse & data Mining</td>
+						</tr>
+						<tr>
+						     <td>xx-xxx</td>
+						     <td>Open Elective -II </td>
+						</tr>
+						<tr>
+						     <td>xx-xxx</td>
+						     <td>Professional Elective II </td>
+						</tr>
+						<tr>
+						     <td>IT-8004</td>
+						     <td>Project II/Industrial training</td>
+						</tr>
+						<tr>
+						     <td>IT-8005</td>
+						     <td>Project Seminar</td>
+						</tr>
+						<tr>
+						     <td>GP-8001</td>
+						     <td>General Fitness for the Profession Seminar & G.D. </td>
+						</tr>
+					</table><br><br>
+					<!-- Electives -->
+					<table style="text-align:center;width:60%;margin-left:19%;border:2px solid #EBEBEB;
+							color:#1e90ff;font-weight:bold;">
+						<tr>
+							<td >Electives</td>
+						</tr>
+					</table><br>
+					<!-- Professional Elective II -->
+					<table border="1" style="width:98%;">
+						<tr>
+						     <td width="20%" style="color:#1e90ff;">Subject Code</td>
+						     <td width="80%" style="color:#1e90ff;">Professional Elective-II</td>
+						</tr>
+						<tr>
+						     <td>IT-8006</td>
+						     <td>GPS Applications</td>
+						</tr>
+						<tr>
+						     <td>IT-8007</td>
+						     <td>Mobile Computing</td>
+						</tr>
+						<tr>
+						     <td>ES-8001</td>
+						     <td>Neural Networks</td>
+						</tr>
+						<tr>
+						     <td>IT-8008</td>
+						     <td>Multilingual Applications</td>
+						</tr>
+						<tr>
+						     <td>IT-8009</td>
+						     <td>Speech Image and Coding</td>
+						</tr>
+						<tr>
+						     <td>IT-8010</td>
+						     <td>Computer Network Management</td>
+						</tr>
+						<tr>
+						     <td>IT-8011</td>
+						     <td>Digital Image Processing</td>
+						</tr>
+						<tr>
+						     <td>IT-8015</td>
+						     <td>Bio Informatics</td>
+						</tr>
+					</table><br>
+					<!-- Open Elective II -->
+					<table border="1" style="width:98%;">
+						<tr>
+						     <td width="20%" style="color:#1e90ff;">Subject Code</td>
+						     <td width="80%" style="color:#1e90ff;">Open Electives-II</td>
+						</tr>
+						<tr>
+						     <td>IT-8012</td>
+						     <td>Development of Knowledge Management</td>
+						</tr>
+						<tr>
+						     <td>EC-8001</td>
+						     <td>Computer based measurement and control</td>
+						</tr>
+						<tr>
+						     <td>IT-8013</td>
+						     <td>Professional Issues in IT</td>
+						</tr>
+						<tr>
+						     <td>EC-8002</td>
+						     <td>VLSI Technology</td>
+						</tr>
+						<tr>
+						     <td>IT-8014</td>
+						     <td>Computer Aided Fine Arts</td>
+						</tr>
+						<tr>
+						     <td>CS-8001</td>
+						     <td>Quantum Computers</td>
+						</tr>
+						<tr>
+						     <td>CS-8020</td>
+						     <td>Computer Software Testing</td>
+						</tr>
+					</table><br>
+				</div><!---close of table body--->
+				<br><br>
+			</div><!---Start of academics left side--->
+			<div id="academics_menu">
+				<a id="academics_menu_a_others" href="/academics" 
+					style="height:45px;">
+				Permanent<br>Faculty</a>
+				<a id="academics_menu_a_others" href="/static/guest.pdf" 
+					style="height:45px;">
+				Guest<br>Faculty</a>
+				<a id="academics_menu_a_others" href="/facilities" 
+					style="">
+				Facilities</a>
+				<a id="academics_menu_a_others" href="/course" 
+					style="height:45px;">
+				Course<br>Outline</a>
+				<a id="academics_menu_a_current" href="/course_syllabus" 
+					style="height:45px;">
+				Course<br>Syllabus</a>
+			</div>
+		</div>
+	</div>		<!----Close of inside_body -->
+	<hr>
+	<div id="footer" style="text-align:center;color:#fff;clear:both; display:block;background:#000;width:98%;font-size:12px;padding:1%;">
+	&copy;All rights reserved with ||Him_Coder||&reg;.<br>
+	Designed, developed by ||Him_Coder||&reg;.
+	Note that this is not the official website for TnP Cell, UIIT Shimla. It is just a sample and developed only for the study and experimental pupose.
+	</div><hr>
+</body>				<!----Close of Body -->
+</html>
