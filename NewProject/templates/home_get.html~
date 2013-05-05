@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script type="text/javascript">
+var image1=new Image();
+image1.src="/static/images/1.jpg";
+var image2=new Image();
+image2.src="/static/images/2.jpg";
+var image3=new Image();
+image3.src="/static/images/3.jpg";
+var image4=new Image();
+image4.src="/static/images/4.jpg";
+</script>
+	<link href="/static/images/favicon.ico" rel="shortcut icon" type="image/x-icon"> 
+	<title>StartlingApps</title>
+	<meta charset="utf-8"></meta>
+	<link href="/static/styles/main.css" rel="stylesheet" type="text/css">
+</head>
+<body id="body">
+	<div id="header">		
+		<span id="logo_left">
+				<a style="text-decoration:none;color:inherit;" href="/">Startling Apps Kit</a></span>
+		<span style="color:#660000;font-size:12px;vertical-align:super;">&reg;</span>
+		<span style="cursor:default;float:right;margin-right:10%;">
+			<span style="color:#1e90ff;font-weight:bold;padding-top:5px;">
+				<a style="text-decoration:none;color: inherit;" href="/about" title="Him_Coder">
+				||Him_Coder||</a></span>
+			<span style="color:#660000;font-size:12px;vertical-align:super;">&reg;</span>
+		</span>
+	</div>
+	<div id="rightside_links">
+				<table style="font-size:13px;text-align:center;">
+					<tr>
+						<td>Share</td>
+					</tr>
+					<tr>
+						<td><a href="https://www.facebook.com/pages/Startling-apps/313810505407653">
+						<img src="/static/images/facebook.png" title="Like Us"
+							width="30px" height="30px"/></a>
+						</td>
+					</tr>
+					<tr>
+						<td><a href="https://twitter.com/ksworld92">
+						<img src="/static/images/twitter.png" title="Follow Us"
+							width="30px" height="30px"/></a>
+						</td>
+					</tr>
+					<tr>
+						<td><a href="https://plus.google.com/b/102467185781267913385/102467185781267913385/about">
+						<img src="/static/images/google.png" title="+1 Us"
+							width="30px" height="30px"/></a>
+						</td>
+					</tr>
+					<tr>
+						<td><a href="http://www.yahoo.com/">
+						<img src="/static/images/yahoo.png" title="Go to Yahoo.com"
+							width="30px" height="30px"/></a>
+						</td>
+					</tr>
+					<tr>
+						<td><a href="http://www.youtube.com/">
+						<img src="/static/images/youtube.png" title="Go to Youtube.com"
+							width="30px" height="30px"/></a>
+						</td>
+					</tr>
+					<tr>
+						<td><a href="http://www.skype.com/">
+						<img src="/static/images/skype.png" title="Go to Skype.com"
+							width="30px" height="30px"/></a>
+						</td>
+					</tr>
+					<tr>
+						<td><a href="http://www.amazon.com/">
+						<img src="/static/images/amazon.png" title="Go to Amazon.com"
+							width="30px" height="30px"/>
+						</td>
+					</tr>
+				</table>
+	</div>	
+	<div id="body_container">
+	<div style="margin-top:20px;padding-top:10px;padding-bottom:10px;overflow:hidden;">
+		<div style="margin-top:120px;width:280px;float:left;overflow:hidden;">
+			<div id="first1" style="text-align:center;font-size:15px;color:#660000;font-weight:bold;"></div>
+			<a id="first" href="/facebook" style="text-decoration:none;">
+				<img name="slider1" src="/static/images/1.jpg" height="250" width="275"
+					style="border:2px solid #660000;-moz-border-radius: 25px;border-radius:25px;">
+				</a>
+		</div>
+		<div style="-moz-box-shadow: 0 0 10px #1e90ff;-webkit-box-shadow: 0 0 10px #1e90ff;box-shadow: 0 0 10px #1e90ff;
+			width:490px;height:405px;border:1px solid #1e90ff;float:left;margin-left:10px;overflow:hidden;-moz-border-radius: 145px;
+					border-radius: 145px;">
+			<a id="second" href="/twitter" style="text-decoration:none;">		
+				<img name="slider2" src="/static/images/2.jpg" height="400" width="489" >
+			</a>
+		</div>
+		<div style="float:left;margin-left:10px;margin-top:120px;width:280px;overflow:hidden;" >
+			<div id="third1" style="text-align:center;font-size:15px;color:#660000;font-weight:bold;"></div>
+			<a id="third" href="/crawler" style="text-decoration:none;">		
+				<img name="slider3" src="/static/images/3.jpg" height="250" width="275"
+					 style="border:2px solid #660000;-moz-border-radius: 25px;border-radius:25px;">
+			</a>
+		</div>
+	</div>
+<script type="text/javascript">
+var s1=1, s2=2, s3=3;
+function slide()
+{
+if(s1<6)
+{
+	if(s1==1)
+	{
+	document.getElementById("first").href="/about";
+	document.getElementById("first").title="About Us";
+	document.getElementById("first1").innerHTML="About Us";
+	document.getElementById("second").href="/crawler";
+	document.getElementById("second").title="Startling Crawler";
+	document.getElementById("third").href="/weather";
+	document.getElementById("third").title="Startling Weather Forecast";
+	document.getElementById("third1").innerHTML="Weather Forecast";
+	document.slider1.src="/static/images/"+s1+".jpg";
+	document.slider2.src="/static/images/"+s2+".jpg";
+	document.slider3.src="/static/images/"+s3+".jpg";
+	s1=2;s2=3;s3=4;
+	}
+	else if(s1==2)
+	{
+	document.getElementById("first").href="/crawler";
+	document.getElementById("first").title="Startling Crawler";
+	document.getElementById("first1").innerHTML="Startling Crawler";
+	document.getElementById("second").href="/weather";
+	document.getElementById("second").title="Startling Weather Forecast";
+	document.getElementById("third").href="http://www.qbingapp.appspot.com/";
+	document.getElementById("third").title="Qbing App";
+	document.getElementById("third1").innerHTML="Qbing App";
+	document.slider1.src="/static/images/"+s1+".jpg";
+	document.slider2.src="/static/images/"+s2+".jpg";
+	document.slider3.src="/static/images/"+s3+".jpg";
+	s1=3;s2=4;s3=5;
+	}
+	else if(s1==3)
+	{
+	document.getElementById("first").href="/weather";
+	document.getElementById("first").title="Startling Weather Forecast";
+	document.getElementById("first1").innerHTML="Weather Forecast";
+	document.getElementById("second").href="http://www.qbingapp.appspot.com/";
+	document.getElementById("second").title="Qbing App";
+	document.getElementById("third").href="/dictionary";
+	document.getElementById("third").title="Startling Dictionary";
+	document.getElementById("third1").innerHTML="Startling Dictionary";
+	document.slider1.src="/static/images/"+s1+".jpg";
+	document.slider2.src="/static/images/"+s2+".jpg";
+	document.slider3.src="/static/images/"+s3+".jpg";
+	s1=4;s2=5;s3=1;
+	}
+	else if(s1==4)
+	{
+	document.getElementById("first").href="http://www.qbingapp.appspot.com/";
+	document.getElementById("first").title="Qbing App";
+	document.getElementById("first1").innerHTML="Qbing App";
+	document.getElementById("second").href="/dictionary";
+	document.getElementById("second").title="Startling Dictionary";
+	document.getElementById("third").href="/about";
+	document.getElementById("third").title="About Us";
+	document.getElementById("third1").innerHTML="About Us";
+	document.slider1.src="/static/images/"+s1+".jpg";
+	document.slider2.src="/static/images/"+s2+".jpg";
+	document.slider3.src="/static/images/"+s3+".jpg";
+	s1=5;s2=1;s3=2;
+	}
+	else if(s1==5)
+	{
+	document.getElementById("first").href="/dictionary";
+	document.getElementById("first").title="Startling Dictionary";
+	document.getElementById("first1").innerHTML="Startling Dictionary";
+	document.getElementById("second").href="/about";
+	document.getElementById("second").title="About Us";
+	document.getElementById("third").href="/crawler";
+	document.getElementById("third").title="Startling Crawler";
+	document.getElementById("third1").innerHTML="Startling Crawler";
+	document.slider1.src="/static/images/"+s1+".jpg";
+	document.slider2.src="/static/images/"+s2+".jpg";
+	document.slider3.src="/static/images/"+s3+".jpg";
+	s1=1;s2=2;s3=3;
+	}
+}
+else {s1=1;s2=2;s3=3;}
+setTimeout("slide()",3500);
+}
+slide();
+</script>
+	<div id="nav_bar">
+		<img src="/static/images/new.gif" width="12" height="12">
+		<a id="nav_current" style="text-decoration:none;" href="/" title="Home">Home</a>  ||
+		<a id="nav_others" style="text-decoration:none;" href="/crawler" title="Forward Links">Crawler</a>  ||
+		<a id="nav_others" style="text-decoration:none;" href="/weather" title="Weather Report">Weather</a>  ||
+		<a id="nav_others" style="text-decoration:none;" href="/dictionary" title="Dictionary Application">Dictionary</a>  ||
+		<a id="nav_others" style="text-decoration:none;" href="http://www.qbingapp.appspot.com/" title="Dictionary Application">QBing</a>  ||
+		<a id="nav_others" style="text-decoration:none;" href="/about" title="About Him_Coder">About Us</a>
+		<img src="/static/images/new.gif" width="12" height="12">
+	</div>
+	<div id="footer" style="clear:both;margin-top:30px;margin-bottom:10px;">
+		<div style="color:#1e90ff;border:2px solid #ABABAB;text-align:center;font-size:12px;padding:10px;font-weight:bold;">
+			&copy;All rights reserved with ||Him_Coder||&reg;.<br>You are free to use StartlingApps under our Privacy Policy.</div>
+	</div>
+	</div>
+</body>
+</html>

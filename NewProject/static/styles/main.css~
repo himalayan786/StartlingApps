@@ -1,0 +1,226 @@
+/*---------------Major Structure---------------------*/
+#body
+{
+	margin:0px;
+	padding:0px;
+	height:100%;
+	width:100%;
+	background:url('../images/background.jpg');
+}
+#body_container
+{
+	width:80%;
+	margin-left:10%;
+}
+#header
+{
+	height:40px;
+	overflow:hidden;
+	padding-top:15px;
+	margin-top:4px;
+	-moz-box-shadow: inset 0 0 15px #660000;
+	-webkit-box-shadow: inset 0 0 15px #1e90ff;
+	box-shadow: 0 0 15px #1e90ff;
+	-moz-box-shadow: 0 0 15px #1e90ff;
+	-webkit-box-shadow: 0 0 15px #1e90ff;
+	box-shadow: 0 0 15px #1e90ff;
+	width:99%;
+	margin-left:5px;
+	clear:both;
+	border:2px solid #BABABA;
+}
+#header #logo_left
+{
+	color:#1e90ff;
+	font-weight:bold;
+	cursor:default;
+	font-size:22px;
+	margin-left:10%;
+	font-family:"Times New Roman";
+	padding:3px;
+	-moz-box-shadow: 0 0 5px #1e90ff;
+	-webkit-box-shadow: 0 0 5px #1e90ff;
+	box-shadow: 0 0 5px #1e90ff;
+}
+#nav_bar
+{
+	border:2px solid #EBEBEB;
+	overflow:hidden;
+	font-weight:bold;
+	background:#CDC0B0;
+	font-family:Arial;
+	padding-top:5px;
+	padding-bottom:5px;
+	margin-top:20px;
+	-moz-border-radius: 15px;
+	border-radius: 15px;
+	text-align:center;
+}
+#nav_bar_himachal
+{
+	position:fixed;
+	bottom:0px;
+	border:2px solid #EBEBEB;
+	overflow:hidden;
+	font-weight:bold;
+	margin-left:10%;
+	width:80%;
+	font-family:Arial;
+	padding-top:5px;
+	padding-bottom:5px;
+	margin-top:15px;
+	background:#CDC0B0;
+	-moz-border-radius: 15px;
+	border-radius: 15px;
+}
+#nav_others
+{
+	color:#660000;
+	margin-left:5px;
+	margin-right:5px;
+}
+#nav_current
+{
+	color:#1e90ff;
+	cursor:default;
+}
+#nav_others:hover
+{
+	border-bottom:1px solid #660000;
+	color:#1e90ff;
+}
+/*-------------------------Links Starts--------------------------------*/
+#rightside_links
+{
+	overflow:hidden;
+	position:fixed;
+	margin-top:80px;
+}
+#rightside_links td a
+{
+	text-align:center;
+	text-decoration: none;
+}
+#rightside_links td a:hover
+{	
+	padding-left:10px;
+}
+/*-------------------------Links Ends--------------------------------*/
+#about_body
+{
+	width:100%;
+	border:2px solid #BABABA;
+	margin-top:20px;
+	overflow:hidden;
+	padding-bottom:5px;
+}
+#about_body_left
+{
+	width:47%;
+	float:left;
+	cursor:default;
+	overflow:hidden;
+}
+#about_body_right
+{
+	width:51%;
+	float:right;
+	cursor:default;
+	overflow:hidden;
+	color:#660000;
+	padding-left:10px;
+	border-left:2px solid #EBEBEB;
+}
+#about_body_right_top
+{
+	height:220px;
+}
+#about_body_right_top1
+{
+	float:left;
+	height:210px;
+	color:#660000;
+	width:70%;
+	padding:20px 0px 10px 0px;
+}
+#about_body_right_top2
+{
+	float:right;
+	width:27%;
+	height:210px;
+	text-align:center;
+	color:#1e90ff;
+	padding:10px 5px 0px 0px;
+}
+.button
+{
+	border:1px solid #1e90ff;
+	background:#fff;
+	color:#660000;
+	padding:7px;
+	float:right;
+	margin-right:20px;
+	width:100px;
+}
+.button:hover
+{
+	color:#1e90ff;
+	border:1px solid #660000;
+	cursor:pointer;
+	font-weight:bold;
+}
+/*-------Himachal--------*/
+/*
+#himachal_body
+{
+	margin-left:10%;
+	width:80%;
+	height:100%;
+	margin-top:10px;
+	margin-bottom:35px;
+	overflow:hidden;
+	border:2px solid #EBEBEB;
+}
+#himachal_body_left
+{
+	width:55%;
+	float:left;
+	border-right:1px solid #EBEBEB;
+}
+#himachal_body_left p
+{
+	color:#660000;
+	font-weight:bold;
+	margin-left:10px;
+}
+#himachal_body_left ul
+{
+	color:#660000;
+}
+#himachal_body_left ul li
+{
+	color:#660000;
+}
+#himachal_body_left ul li span
+{
+	color:#1e90ff;
+}
+
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

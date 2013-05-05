@@ -1,0 +1,27 @@
+application: startlingapps
+version: 7
+runtime: python27
+api_version: 1
+threadsafe: yes
+
+handlers:
+- url: /static
+  static_dir: static
+- url: /
+  script: home.app
+- url: /about
+  script: about.app
+- url: /crawler
+  script: crawler.app
+- url: /dictionary
+  script: dict.app
+- url: /weather
+  script: weather.app
+- url: /.*
+  script: home.app
+
+libraries:
+- name: webapp2
+  version: "2.5.2"
+- name: jinja2
+  version: "2.6"

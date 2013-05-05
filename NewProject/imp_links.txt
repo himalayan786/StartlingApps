@@ -1,0 +1,23 @@
+Web Crawler:
+http://www.pythonclub.org/python-network-application/pycurl
+http://curl.haxx.se/docs/features.html
+http://www.angryobjects.com/2011/10/15/http-with-python-pycurl-by-example/
+http://pycurl.sourceforge.net/doc/curlobject.html
+http://pycurl.sourceforge.net/
+
+
+Weather Forecast:
+http://api.wunderground.com/api/2225b8ee850d2f4c/geolookup/conditions/q/new+york.json
+http://www.wunderground.com/weather/api/d/docs?d=resources/code-samples&MR=1
+http://docs.python.org/2/library/json.html
+
+
+
+Python Modules:
+http://pypi.python.org/simple/
+
+Hidden faetures of PYTHON:
+http://stackoverflow.com/questions/101268/hidden-features-of-python?rq=1
+
+JSON Important:
+http://stackoverflow.com/questions/383692/what-is-json-and-why-would-i-use-it

@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<link href="/static/images/favicon.ico" rel="shortcut icon" type="image/x-icon"> 
+	<title>StartlingApps</title>
+	<meta charset="utf-8"></meta>
+	<link href="/static/styles/main.css" rel="stylesheet" type="text/css">
+</head>
+<body id="body">
+	<header id="header">		
+		<span id="logo_left">
+				<a style="text-decoration:none;color:inherit;" href="/">Startling Apps Kit</a></span>
+		<span style="color:#660000;font-size:12px;vertical-align:super;">&reg;</span>
+		<span style="cursor:default;float:right;margin-right:10%;">
+			<span style="color:#1e90ff;font-weight:bold;padding-top:5px;">
+				<a style="text-decoration:none;color: inherit;" href="/about" title="Him_Coder">
+				||Him_Coder||</a></span>
+			<span style="color:#660000;font-size:12px;vertical-align:super;">&reg;</span>
+		</span>
+	</header>
+	<div id="rightside_links">
+				<span>Share</span>
+				<div style="padding-top:12px;">
+					<a href="https://www.facebook.com/pages/Startling-apps/313810505407653">
+						<img src="/static/images/facebook.png" title="Like Us"
+							width="30px" height="30px"/></a></br>
+					<a href="https://twitter.com/Him_Coder">
+						<img src="/static/images/twitter.png" title="Follow Us"
+							width="30px" height="30px"/></a></br>
+					<a href="http://www.google.com/">
+						<img src="/static/images/google.png" title="+1 Us"
+							width="30px" height="30px"/></a></br>
+					<a href="http://www.yahoo.com/">
+						<img src="/static/images/yahoo.png" title="Go to Yahoo.com"
+							width="30px" height="30px"/></a></br>
+					<a href="http://www.youtube.com/">
+						<img src="/static/images/youtube.png" title="Go to Youtube.com"
+							width="30px" height="30px"/></a></br>
+					<a href="http://www.skype.com/">
+						<img src="/static/images/skype.png" title="Go to Skype.com"
+							width="30px" height="30px"/></a></br>
+					<a href="http://www.amazon.com/">
+						<img src="/static/images/amazon.png" title="Go to Amazon.com"
+							width="30px" height="30px"/></a>
+				</div>
+	</div>
+	<nav id="nav_bar_himachal">
+		<a id="nav_others" style="text-decoration:none;" href="/facebook" title="Generate Facebook Report">Facebook Stats</a>  ||
+		<a id="nav_others" style="text-decoration:none;" href="/twitter" title="Generate Twitter Report">Twitter Stats</a>  ||
+		<a id="nav_others" style="text-decoration:none;" href="/crawler" title="Forward Links">Crawler</a>  ||
+		<a id="nav_others" style="text-decoration:none;" href="/weather" title="Weather Report">Weather</a>  ||
+		<a id="nav_others" style="text-decoration:none;" href="/dictionary" title="Dictionary Application">Dictionary</a>  ||
+		<a id="nav_others" style="text-decoration:none;" href="/games" title="Games">Games</a> ||
+		<a id="nav_current" style="text-decoration:none;" href="/himachal" title="Himachal Tourism">Himachal Tourism</a>
+		<span style="float:right;padding-right:5px;">
+			<a id="nav_others" style="text-decoration:none;" href="/about" title="About Him_Coder">About Us</a></span>
+	</nav>
+	<div id="himachal_body">
+		<div id="himachal_body_left" style="width:55%;float:left;border-right:1px solid #EBEBEB;">
+			<p>About Himachal Pradesh</p>
+			<ul>
+				<li><span>Area:</span> 55673 sq. km.</li>
+				<li><span>Population:</span> 5.2 million.</li>
+				<li><span>Literacy:</span> 64%.</li>
+				<li><span>Average rain fall:</span> 1400 mm.</li>
+				<li><span>Climate:</span> Temperate.</li>
+				<li><span>Clothing:</span> Cotton in summer and woollen in winter.</li>
+				<li><span>Airport:</span> 
+					<ul>
+					<li>Jubbarhatti(Shimla)</li>
+					<li>Bhuntar(Kullu) and </li>
+					<li>Gaggal(Dharamsala)</li>
+					</ul>
+				<li><span>Important Trek routes:</span>
+					<ul>
+					<li> Rohru-Chanshal-Dodrakwar-Rupin-Sangla</li>
+					<li>Sangla-Badrinath</li>
+					<li>Jalori pass</li>
+					<li>Bharmour-Baijnath</li>
+					<li>Bharmour-Lahaul</li>
+					<li>Chandratal</li>
+					<li>Barashigri glacier</li>
+					<li>Kinner-Kailash</li>
+					</ul>
+				<li><span>Skiing and Ice Skating:</span> (January to March)
+					<ul>
+					<li>Solang Nalla(Manali)</li>
+					<li>Narkanda(Shimla) and Rohtang Pass(Manali)</li>
+					<li>Ice Skating Shimla, Heli-skiing Manali.</li>
+					</ul>
+				<li><span>River Rafting:</span> In Sutlej, Beas and Chenab rivers, Shamshi(Kullu), Tattapani(Shimla), Rampur(Shimla) and Jispa(Lahaul)</li>
+				<li><span>Para-gliding & Hang-gliding:</span> Bir, Manali, Bilaspur and Rohru</li>
+				<li><span>Lake sports:</span> Gobindsagar(Bilaspur), Pongdam(Kangra)</li>
+				<li><span>Lakes:</span> Prashar, Khajjiar, Renuka, Gobindsagar, Dal, Pongdam, Pandoh, Manimahesh, Brighu, Chandratal.</li>
+				<li><span>Rivers:</span> Beas, Sutlej, Ravi, Chenab, Yamuna, Pabbar, Giri, Parvati, Baspa</li>
+				<li><span>Temples:</span>
+					<ul>
+					<li><span>Kangra:</span></li>
+						<ul>
+						<li>Jwalamukhi</li>
+						<li>Chamunda</li> 
+						<li>Brajeshwari</li>
+						<li>Baijnath</li>
+						</ul>
+					<li><span>Mandi:</span></li>
+						<ul>
+						<li>TarnaDevi</li>
+						<li>NainaDevi, Rewalsar</li>
+						<li>ShikariDevi</li>
+						<li>MahuNaag, Kamru Nag</li>
+						<li></li>
+						</ul>
+					<li><span>Bilaspur:</span></li>
+						<ul>
+						<li>Baba Balak Nath, Deotsidh</li>
+						<li>NainaDevi</li>
+						<li>Markanday</li>
+						</ul>
+					<li><span>Chamba:</span></li>
+						<ul>
+						<li>Chaurasi</li>
+						<li>Laxminarayan</li>
+						<li>Shakti Devi, Chhatrari</li>
+						</ul>
+					<li><span>Kullu:</span></li>
+						<ul>
+						<li>Manikaran</li>
+						<li>Hadimba, Manali</li>
+						<li>Bijlimahadev</li>
+						<li></li>
+						</ul>
+					<li><span>Una:</span></li>
+						<ul>
+						<li>Chintpurni</li>
+						<li></li>
+						</ul>
+					<li><span>Shimla:</span></li>
+						<ul>
+						<li>Hatkoti</li>
+						<li>Jakhoo</li>
+						<li>Kalibari</li>
+						<li>Sankatmochan</li>
+						<li>Bhimakali</li>
+						</ul>
+					</ul>
+				</li>
+				<li><span>Buddhist Monasteries:</span>
+					<ul>
+					<li>Dharamsala Tashizong</li>
+					<li>Rewalsar</li>
+					<li>Manali</li>
+					<li>Kardang</li>
+					<li>Sashur</li>
+					<li>Key</li>
+					<li>Dhankar</li>
+					<li>Tabo</li>
+					<li>Nako</li>
+					<li>Pooh</li>
+					<li>Kanam</li>
+					<li>Jangi</li>
+					<li>Murang</li>
+					<li>Ribba</li>
+					<li>Reckongpeo</li>
+					</ul>
+				</li>
+				<li><span>Sikh Pilgrimage Centres:</span> Paonta Sahib, Rewalsar and Manikaran.</li>
+				<li><span>Churches:</span>
+					<ul>
+					<li>Christ Church Kasauli</li>
+					<li>Christ Church Shimla</li>
+					<li>St. Johns Church, Mecleodgang</li>
+					<li>St. Francis Dalhousie</li>
+					</ul>
+				</li>
+				<li><span>Fairs:</span>
+					<ul>
+					<li>Winter Carnival(Feb.), Manali</li>
+					<li>Mandi Shivratri(March)</li>
+					<li>Ladarcha fair, Spiti(July)</li>
+					<li>Minjar fair, Chamba(July)</li>
+					<li>Manimahesh fair, Chamba(Feb.)</li>
+					<li>Fulaich festival, Kinnaur(Sept.)</li>
+					<li>Kullu Dushera (October)</li>
+					<li>Lavi fair, Rampur (Nov.)</li>
+					<li>Mahu Nag Fair, Mandi(April)</li>
+					</ul>
+				</li>
+				<li><span>Heritage Monuments:</span>
+					<ul>
+					<li>Kangra fort</li>
+					<li>Taragarh(Kangra)</li>
+					<li>Rampur, Jubbal, Bhimakali, (Shimla)</li>
+					<li>Nalagarh, Arki(Solan)</li>
+					<li>Naggar Castle, Manali</li>
+					<li>Kamru fort, Sangla Valley, Kinnaur</li>
+					<li>Gondola fort, Kyelong</li>
+					<li>Lahaul Vice regal lodge</li>
+					</ul>
+				</li>
+				<li><span>Museums:</span>
+					<ul>
+					<li>State Museum, Shimla</li>
+					<li>Kangra art Gallery Dharamsala </li>
+					<li>Bhurisingh Museum Chamba </li>
+					<li>Roerich art gallery Naggar </li>
+					<li>Sobha Singh art gallery Andreta </li>
+					</ul>
+				</li>
+			<ul>
+		</div>
+		<div id="himachal_body_right" style="width:44%;float:right;overflow:hidden;">
+			<div id="himachal_body_right_logo" style="float:right;overflow:hidden;width:36%;">
+			<img src="/static/images/uhp.png" width="80"><img src="/static/images/ht.png" width="50" style="float:right;">
+			<br><br><br>
+			<div style="-moz-border-radius-bottomright: 25px 50px;
+border-bottom-right-radius: 25px 50px;color:white;background:#660000;">Best Tourist Places:</div>
+
+
+			</div>
+		</div>
+	</div>
+</body>
+</html>

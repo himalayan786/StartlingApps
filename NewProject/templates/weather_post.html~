@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<link href="/static/images/favicon.ico" rel="shortcut icon" type="image/x-icon"> 
+	<title>Startling Dictionary App</title>
+	<meta charset="utf-8"></meta>
+	<link href="/static/styles/main.css" rel="stylesheet" type="text/css">
+</head>
+<body id="body"><!-- Start of Body -->
+<!-- Script -->
+<script type="text/javaScript">
+function clearplaceholder()
+{
+document.form1.word.placeholder = ""
+}
+function resetdefault()
+{
+document.form1.word.placeholder = "For Example:  Shimla, New Delhi, London etc."
+}
+</script><!-- Script -->
+	<div id="header"><!-- start of header navigations -->		
+		<span id="logo_left">
+				<a style="text-decoration:none;color:inherit;" href="/">Startling Apps Kit</a></span>
+		<span style="color:#660000;font-size:12px;vertical-align:super;">&reg;</span>
+		<span style="cursor:default;float:right;margin-right:10%;">
+			<span style="color:#1e90ff;font-weight:bold;padding-top:5px;">
+				<a style="text-decoration:none;color: inherit;" href="/about" title="Him_Coder">
+				||Him_Coder||</a></span>
+			<span style="color:#660000;font-size:12px;vertical-align:super;">&reg;</span>
+		</span>
+	</div><!-- close of header navigations -->
+	<div id="rightside_links"><!-- start of rightside navigations -->
+				<table style="font-size:13px;text-align:center;">
+					<tr>
+						<td>Share</td>
+					</tr>
+					<tr>
+						<td><a href="https://www.facebook.com/pages/Startling-apps/313810505407653">
+						<img src="/static/images/facebook.png" title="Like Us"
+							width="30px" height="30px"/></a>
+						</td>
+					</tr>
+					<tr>
+						<td><a href="https://twitter.com/ksworld92">
+						<img src="/static/images/twitter.png" title="Follow Us"
+							width="30px" height="30px"/></a>
+						</td>
+					</tr>
+					<tr>
+						<td><a href="https://plus.google.com/b/102467185781267913385/102467185781267913385/about">
+						<img src="/static/images/google.png" title="+1 Us"
+							width="30px" height="30px"/></a>
+						</td>
+					</tr>
+					<tr>
+						<td><a href="http://www.yahoo.com/">
+						<img src="/static/images/yahoo.png" title="Go to Yahoo.com"
+							width="30px" height="30px"/></a>
+						</td>
+					</tr>
+					<tr>
+						<td><a href="http://www.youtube.com/">
+						<img src="/static/images/youtube.png" title="Go to Youtube.com"
+							width="30px" height="30px"/></a>
+						</td>
+					</tr>
+					<tr>
+						<td><a href="http://www.skype.com/">
+						<img src="/static/images/skype.png" title="Go to Skype.com"
+							width="30px" height="30px"/></a>
+						</td>
+					</tr>
+					<tr>
+						<td><a href="http://www.amazon.com/">
+						<img src="/static/images/amazon.png" title="Go to Amazon.com"
+							width="30px" height="30px"/>
+						</td>
+					</tr>
+				</table>
+	</div><!-- close of rightside navigations -->
+	<div id="body_container"><!-- Start of body container tag -->
+	<div id="nav_bar">
+		<img src="/static/images/new.gif" width="12" height="12">
+		<a id="nav_others" style="text-decoration:none;" href="/" title="Home">Home</a>  ||
+		<a id="nav_others" style="text-decoration:none;" href="/crawler" title="Forward Links">Crawler</a>  ||
+		<a id="nav_current" style="text-decoration:none;" href="/weather" title="Weather Report">Weather</a>  ||
+		<a id="nav_others" style="text-decoration:none;" href="/dictionary" title="Dictionary Application">Dictionary</a>  ||
+		<a id="nav_others" style="text-decoration:none;" href="http://www.qbingapp.appspot.com/" title="Dictionary Application">QBing</a>  ||
+		<a id="nav_others" style="text-decoration:none;" href="/about" title="About Him_Coder">About Us</a>
+		<img src="/static/images/new.gif" width="12" height="12">
+	</div>
+	<!-- Start of request body div -->
+	<div id="weather_post_body" style="margin-top:30px;overflow:hidden;">
+		<div id="weather_content_body" style="width:80%;margin-left:10%;overflow:hidden;color:#660000;">
+			<table style="width:100%;border:1px solid #BABABA;overflow:hidden;" border="1">
+				<tr>
+					<td style="text-transform:uppercase;text-align:center;background:#660000;
+							padding:5px;color:#fff;font-size:18px;
+							font-weight:bold;">{{location}} Weather Forecast
+					</td>
+				</tr>
+			</table>
+			<table style="width:100%;border:1px solid #BABABA;overflow:hidden;color:#660000;margin-top:5px;">
+				<tr>
+					 <td style="width:50%;padding:5px;font-size:16px;font-weight:bold;">
+					</td>
+					<td style="width:50%;padding:5px;font-size:16px;font-weight:bold;background:#CDC0B0;">
+						<span style="color:#660000">{{time}}</span>
+					</td>
+				</tr>
+			</table>
+			<table style="width:100%;border:1px solid #BABABA;overflow:hidden;color:#660000;margin-top:5px;">
+				<tr>
+					<td style="width:50%;padding:5px;font-size:16px;font-weight:bold;color:#660000;">Location:
+						<span style="color:#1e90ff">{{country}}</span>
+					</td>
+					<td style="width:50%;padding:5px;font-size:16px;font-weight:bold;">Elevation:
+						<span style="color:#1e90ff">{{elev}} ft</span>
+					</td>
+				</tr>
+			</table>
+			<table style="width:100%;border:1px solid #BABABA;overflow:hidden;color:#660000;margin-top:5px;">
+				<tr>
+					<td style="width:50%;padding:5px;font-size:16px;font-weight:bold;">Latitude:
+						<span style="color:#1e90ff">{{lat}} °</span>
+					</td>
+					<td style="width:50%;padding:5px;font-size:16px;font-weight:bold;">Longitude:
+						<span style="color:#1e90ff">{{long}} °</span>
+					</td>
+				</tr>
+			</table>
+			<table style="width:100%;border:1px solid #BABABA;overflow:hidden;color:#660000;margin-top:5px;">
+				<tr>
+					<td style="width:50%;padding:5px;font-size:16px;font-weight:bold;">Feels like
+						<span style="color:#1e90ff">{{temp}} °C</span>
+					</td>
+					<td style="width:50%;padding:5px;font-size:16px;font-weight:bold;">Humidity:
+						<span style="color:#1e90ff">{{humidity}} </span>
+					</td>
+				</tr>
+			</table>
+			<table style="width:100%;border:1px solid #BABABA;overflow:hidden;color:#660000;margin-top:5px;">
+				<tr>
+					<td style="width:50%;padding:5px;font-size:16px;font-weight:bold;">Wind: 
+						<span style="color:#1e90ff">{{wind}}</span>
+					</td>
+					<td style="width:50%;padding:5px;font-size:16px;font-weight:bold;">Dew: 
+						<span style="color:#1e90ff">{{dew}} °C</span>
+					</td>
+				</tr>
+			</table>
+			<table style="width:49%;float:left;overflow:hidden;color:#1e90ff;margin-top:5px;margin-right:1%;" border="2">
+				<tr>
+					<td style="width:50%;padding:5px;font-size:16px;font-weight:bold;background:#660000;color:#fff;">
+						Make a <a href="/weather" style="text-decoration:none;color:#1e90ff;">New Forecast???</a>
+					</td>
+				</tr>
+			<table style="width:50%;float:left;overflow:hidden;color:#1e90ff;margin-top:5px;" border="2">
+				<tr>
+					<td style="width:50%;padding:5px;font-size:16px;font-weight:bold;background:#660000;color:#fff;">
+						Didn't satisfied??? <a href="http://my-py-apps.appspot.com/weather_report"
+							 style="text-decoration:none;color:#1e90ff;">Click Me.</a>
+					</td>
+				</tr>
+			</table>
+		</div>
+	</div><!-- close of request body div -->
+	<div id="footer" style="clear:both;margin-top:30px;margin-bottom:10px;">
+		<div style="color:#1e90ff;border:2px solid #ABABAB;text-align:center;font-size:12px;padding:10px;font-weight:bold;">
+			&copy;All rights reserved with ||Him_Coder||&reg;.<br>You are free to use StartlingApps under our Privacy Policy.</div>
+	</div>
+	</div><!-- close of body conatainer div -->
+</body><!-- Start of Body -->
+</html>
