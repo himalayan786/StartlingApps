@@ -1,0 +1,622 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8"></meta>
+	<link rel="stylesheet" href="/static/stylesheet/main.css" type="text/css"/>
+	<link rel="icon" href="/static/images/favicon.ico" type="SHORTCUT ICON"/>
+	<title>StartlingAppsKit</title>
+</head>
+<body id="body">
+	<header id="header">
+		<span id="header_content">
+			<a href="/">
+				<span id="headertext">Startling Apps Kit</span>
+				<span id="headertext2">*(Experimental version)*</span>
+			</a>
+			<span id="tw">
+			<a href="http://www.google.com">
+				<label id="googlelabel" title="Go to Google">Browse Google</label>
+			</a>
+			</span>
+		</span>
+	</header>
+	<nav id="main_nav">|| 
+		<a href="/" class="nav_others">Home</a>  ||
+		<a href="/crawler" class="nav_others" title="Crawl a Web Page">Crawler</a>  ||
+		<a href="/dictionary" class="nav_others" title="Online Dictionary">Dictionary</a>  ||
+		<a href="/weather_report" class="nav_others" title="Get Weather Report">Weather Report</a> ||
+		<a href="http://www.qbingapp.appspot.com" class="nav_others" title="Go to Qbing">QBing</a>
+		<img src="/static/images/new.gif" width="20" style="vertical-align:super;"> ||
+		<span id="nav_text" title="Developer and Designer: Kunal Sharma">(From ||Him_Coder||&reg; Python Development Unit)
+		</span>
+	</nav>
+	<div id="rightside_links">
+				<span>Share</span><br><br>
+				<div>
+					<a href="https://www.facebook.com/pages/Startling-apps/313810505407653">
+						<img src="/static/images/facebook.png" title="Like Us"
+							width="30px" height="30px"/></a><br>
+					<a href="https://twitter.com/ksworld92">
+						<img src="/static/images/twitter.png" title="Follow Us"
+							width="30px" height="30px"/></a><br>
+					<a href="https://plus.google.com/b/102467185781267913385/102467185781267913385/about">
+						<img src="/static/images/google.png" title="+1 Us"
+							width="30px" height="30px"/></a><br>
+					<a href="http://www.yahoo.com/">
+						<img src="/static/images/yahoo.png" title="Go to Yahoo.com"
+							width="30px" height="30px"/></a><br>
+					<a href="http://www.youtube.com/">
+						<img src="/static/images/youtube.png" title="Go to Youtube.com"
+							width="30px" height="30px"/></a><br>
+					<a href="http://www.skype.com/">
+						<img src="/static/images/skype.png" title="Go to Skype.com"
+							width="30px" height="30px"/></a><br>
+					<a href="http://www.amazon.com/">
+						<img src="/static/images/amazon.png" title="Go to Amazon.com"
+							width="30px" height="30px"/></a>
+				</div>
+	</div>
+	<div>
+		<a href="/weather_report" style="text-decoration:none;">
+			<input type="submit" value="{{val}}"  id="button_new_search_locations"/>
+		</a>
+	</div>
+	<div id="locations_table">
+		<span style="color:#1E90FF;font-size:18px;font-weight:bold;">Loctions from India:<br></span>
+		<table width="70%">
+		<tr>
+			 <td>Adilabad</td>
+			 <td>Agartala</td>
+			 <td>Agartala</td>
+			 <td>Agatti</td>
+			 <td>Agra</td>
+			 <td>Agumbe</td>
+			 <td>Ahmadnagar</td>
+			 <td>Ahmedabad</td>
+			 <td>Aijal</td>
+		</tr>
+		<tr>
+			 <td>Ajmer</td>
+			 <td>Akola</td>
+			 <td>Alapuzha</td>
+			 <td>Alibag</td>
+			 <td>Aligarh</td>
+			 <td>Alirajpur</td>
+			 <td>Allahabad</td>
+			 <td>Along</td>
+			 <td>Alwar</td>
+		</tr>
+		<tr>
+			 <td>Ambala</td>
+			 <td>Ambikapur</td>
+			 <td>Amraoti</td>
+			 <td>Amreli</td>
+			 <td>Amritsar</td>
+			 <td>Anantapur</td>
+			 <td>Androth</td>
+			 <td>Angul</td>
+			 <td>Anupgarh</td>
+		</tr>
+		<tr>
+			 <td>Ariyalur</td>
+			 <td>Arogyavaram</td>
+			 <td>Arrah</td>
+			 <td>Atiramapattinam</td>
+			 <td>Aurangabad</td>
+			 <td>Azamgarh</td>
+			 <td>Bagati</td>
+			 <td>Bagdogra Airport</td>
+			 <td>Bahraich</td>
+		</tr>
+		<tr>
+			 <td>Bailadila</td>
+			 <td>Balasore</td>
+			 <td>Balehonur</td>
+			 <td>Ballia</td>
+			 <td>Balurghat</td>
+			 <td>Banda</td>
+			 <td>Bangalore</td>
+			 <td>Bangalore Airport</td>
+			 <td>Banihal</td>
+		</tr>
+		<tr>
+			 <td>Bankura</td>
+			 <td>Banswara</td>
+			 <td>Bapatla</td>
+			 <td>Baramati</td>
+			 <td>Bareilly</td>
+			 <td>Baripada</td>
+			 <td>Barmer</td>
+			 <td>Baroda</td>
+			 <td>Basti</td>
+		</tr>
+		<tr>
+			 <td>Belgaum</td>
+			 <td>Belgaum</td>
+			 <td>Bellary</td>
+			 <td>Berhampore</td>
+			 <td>Betul</td>
+			 <td>Bhagalpur</td>
+			 <td>Bharatpur</td>
+			 <td>Bhatinda</td>
+			 <td>Bhaunagar</td>
+		</tr>
+		<tr>
+			 <td>Bhawanipatna</td>
+			 <td>Bhilwara</td>
+			 <td>Bhind</td>
+			 <td>Bhira</td>
+			 <td>Bhopal</td>
+			 <td>Bhubaneswar</td>
+			 <td>Bhuj</td>
+			 <td>Bhuntar</td>
+			 <td>Bijapur</td>
+		</tr>
+		<tr>
+			 <td>Bikaner</td>
+			 <td>Bir</td>
+			 <td>Bolangir</td>
+			 <td>Bomdila</td>
+			 <td>Bramhapuri</td>
+			 <td>Broach</td>
+			 <td>Budaun</td>
+			 <td>Bulandshahr</td>
+			 <td>Buldana</td>
+		</tr>
+		<tr>
+			 <td>Bulsar</td>
+			 <td>Bundi</td>
+			 <td>Burdwan</td>
+			 <td>Canning</td>
+			 <td>Cannur</td>
+			 <td>Car Nicobar</td>
+			 <td>Chaibasa</td>
+			 <td>Chambal</td>
+			 <td>Chamoli</td>
+		</tr>
+		<tr>
+			 <td>Champa</td>
+			 <td>Chandbali</td>
+			 <td>Chandrapur</td>
+			 <td>Chaparmukh</td>
+			 <td>Chapra</td>
+			 <td>Chennai</td>
+			 <td>Cherrapunji</td>
+			 <td>Chhindwara</td>
+			 <td>Chickmagalur</td>
+		</tr>
+		<tr>
+			 <td>Chitradurga</td>
+			 <td>Chittorgarh</td>
+			 <td>Churu</td>
+			 <td>Cochin</td>
+			 <td>Coimbatore</td>
+			 <td>Contai</td>
+			 <td>Cooch Behar</td>
+			 <td>Coonoor</td>
+			 <td>Cuddalore</td>
+		</tr>
+		<tr>
+			 <td>Cuddapah</td>
+			 <td>Cuttack</td>
+			 <td>Cwc Visakhapatnam</td>
+			 <td>Dahanu</td>
+			 <td>Dalhousie</td>
+			 <td>Daltonganj</td>
+			 <td>Daman</td>
+			 <td>Damoh</td>
+			 <td>Darbhanga</td>
+		</tr>
+		<tr>
+			 <td>Darjeeling</td>
+			 <td>Datia</td>
+			 <td>Deesa</td>
+			 <td>Dehradun</td>
+			 <td>Dehri</td>
+			 <td>Devgarh</td>
+			 <td>Dhanbad</td>
+			 <td>Dhar</td>
+			 <td>Dharamsala</td>
+		</tr>
+		<tr>
+			 <td>Dharchula</td>
+			 <td>Dharmapuri</td>
+			 <td>Dharmpur</td>
+			 <td>Dholpur</td>
+			 <td>Dhubri</td>
+			 <td>Dhubri Rupsi</td>
+			 <td>Diamond Harbour</td>
+			 <td>Dibrugarh</td>
+			 <td>Digboi</td>
+		</tr>
+		<tr>
+			 <td>Digha</td>
+			 <td>Diu</td>
+			 <td>Dohad</td>
+			 <td>Dras</td>
+			 <td>Dumka</td>
+			 <td>Dungarpur</td>
+			 <td>Durg</td>
+			 <td>Dwarka</td>
+			 <td>Erinpura</td>
+		</tr>
+		<tr>
+			 <td>Etawah</td>
+			 <td>Faizabad</td>
+			 <td>Fatehpur</td>
+			 <td>Ferozepur</td>
+			 <td>Forbesganj</td>
+			 <td>Fort Cochin</td>
+			<td>Gadag</td>
+			<td>Gandhinagar</td>
+			<td>Ganganagar</td>
+		</tr>
+		<tr>
+			<td>Gangtok</td>
+			<td>Gauhati</td>
+			<td>Gaya</td>
+			<td>Ghazipur</td>
+			<td>Goa</td>
+			<td>Goalpara</td>
+			<td>Gohpur</td>
+			<td>Golaghat</td>
+			<td>Gonda</td>
+		</tr>
+		<tr>
+			<td>Gondia</td>
+			<td>Gopalpur</td>
+			<td>Gorakhpur</td>
+			<td>Gulbarga</td>
+			<td>Gulmarg</td>
+			<td>Guna</td>
+			<td>Gurgaon</td>
+			<td>Gwalior</td>
+			<td>Haflong</td>
+		</tr>
+		<tr>
+			<td>Hamirpur</td>
+			<td>Hanamkonda</td>
+			<td>Hardoi</td>
+			<td>Harnai</td>
+			<td>Hassan</td>
+			<td>Hazaribagh</td>
+			<td>Hissar</td>
+			<td>Honavar</td>
+			<td>Hoshangabad</td>
+		</tr>
+		<tr>
+			<td>Hut Bay</td>
+			<td>Hyderabad</td>
+			<td>Idar</td>
+			<td>Imphal</td>
+			<td>Indore</td>
+			<td>Jabalpur</td>
+			<td>Jagdalpur</td>
+			<td>Jaipur</td>
+			<td>Jaisalmer</td>
+		</tr>
+		<tr>
+			<td>Jalgaon</td>
+			<td>Jalore</td>
+			<td>Jalpaiguri</td>
+			<td>Jammu</td>
+			<td>Jamnagar</td>
+			<td>Jamshedpur</td>
+			<td>Jamui</td>
+			<td>Jashpurnagar</td>
+			<td>Jaunpur</td>
+		</tr>
+		<tr>
+			<td>Jeur</td>
+			<td>Jhalawar</td>
+			<td>Jhansi</td>
+			<td>Jharsuguda</td>
+			<td>Jodhpur</td>
+			<td>Joshimath</td>
+			<td>Jullundur</td>
+			<td>K. Paramathy</td>
+			<td>Kailashahar</td>
+		</tr>
+		<tr>
+			<td>Kakinada</td>
+			<td>Kalimpong</td>
+			<td>Kalingapatam</td>
+			<td>Kandla</td>
+			<td>Kanker</td>
+			<td>Kanniyakumari</td>
+			<td>Kannod</td>
+			<td>Kanpur</td>
+			<td>Kapurthala</td>
+		</tr>
+		<tr>
+			<td>Karaikal</td>
+			<td>Karaikudi</td>
+			<td>Karnal</td>
+			<td>Karwar</td>
+			<td>Kathua</td>
+			<td>Kavali</td>
+			<td>Keongjhargarh</td>
+			<td>Keshod</td>
+			<td>Khajuraho</td>
+		</tr>
+		<tr>
+			<td>Khammam</td>
+			<td>Khandala</td>
+			<td>Khandwa</td>
+			<td>Khargone</td>
+			<td>Kheri</td>
+			<td>Kodaikanal</td>
+			<td>Kohima</td>
+			<td>Kolar Gold Fields</td>
+			<td>Kolhapur</td>
+		</tr>
+		<tr>
+			<td>Kolkata</td>
+			<td>Kondul</td>
+			<td>Koraput</td>
+			<td>Kota</td>
+			<td>Kothagudem</td>
+			<td>Kottayam</td>
+			<td>Kovalam</td>
+			<td>Kozhikode</td>
+			<td>Krishnanagar</td>
+		</tr>
+		<tr>
+			<td>Kudimiamalai</td>
+			<td>Kurnool</td>
+			<td>Kyelong</td>
+			<td>Long Island</td>
+			<td>Lucknow</td>
+			<td>Ludhiana</td>
+			<td>Lumding</td>
+			<td>M.O. Agathi</td>
+			<td>M.O. Amini</td>
+		</tr>
+		<tr>
+			<td>M.O. Karipur</td>
+			<td>M.O. Pondicherry</td>
+			<td>Machilipatnam</td>
+			<td>Madikeri</td>
+			<td>Madurai</td>
+			<td>Mahabaleshwar</td>
+			<td>Mahabubnagar</td>
+			<td>Mahuva</td>
+			<td>Mainpuri</td>
+		</tr>
+		<tr>
+			<td>Majbat</td>
+			<td>Malanjkhand</td>
+			<td>Malda</td>
+			<td>Malegaon</td>
+			<td>Manali</td>
+			<td>Mandi</td>
+			<td>Mandla</td>
+			<td>Mandvi</td>
+			<td>Mandya</td>
+		</tr>
+		<tr>
+			<td>Mangalore</td>
+			<td>Matheran</td>
+			<td>Mathura</td>
+			<td>Maya Bandar</td>
+			<td>Medak</td>
+			<td>Meerut</td>
+			<td>Midnapore</td>
+			<td>Minicoy</td>
+			<td>Moradabad</td>
+		</tr>
+		<tr>
+			<td>Mormugao</td>
+			<td>Motihari</td>
+			<td>Mount Abu</td>
+			<td>Mukteshwar Kumaon</td>
+			<td>Mumbai</td>
+			<td>Munsyari</td>
+			<td>Mussoorie</td>
+			<td>Muzaffarpur</td>
+			<td>Mysore</td>
+		</tr>
+		<tr>
+			<td>Nagappattinam</td>
+			<td>Nagaur</td>
+			<td>Nagpur</td>
+			<td>Nagpur Sonegaon</td>
+			<td>Nainital</td>
+			<td>Najibabad</td>
+			<td>Nalgonda</td>
+			<td>Naliya</td>
+			<td>Nancowry</td>
+		</tr>
+		<tr>
+			<td>Nanded</td>
+			<td>Nandigama</td>
+			<td>Nandurbar</td>
+			<td>Nandyal</td>
+			<td>Narnaul</td>
+			<td>Narsapur</td>
+			<td>Narsinghpur</td>
+			<td>Nasik</td>
+			<td>Nasik Ozar</td>
+		</tr>
+		<tr>
+			<td>Nautanwa</td>
+			<td>Nellore</td>
+			<td>New Delhi</td>
+			<td>New Delhi Safdarjung</td>
+			<td>New Kandla</td>
+			<td>Nidadavole</td>
+			<td>Nilambur</td>
+			<td>Nimach</td>
+			<td>Nizamabad</td>
+		</tr>
+		<tr>
+			<td>North Lakhimpur</td>
+			<td>Nowgong</td>
+			<td>Numgambakkam</td>
+			<td>Okha</td>
+			<td>Ongole</td>
+			<td>Orai</td>
+			<td>Pachmarhi</td>
+			<td>Palakkad</td>
+			<td>Palayankottai</td>
+		</tr>
+		<tr>
+			<td>Pamban</td>
+			<td>Panna</td>
+			<td>Pantnagar</td>
+			<td>Paradip</td>
+			<td>Parbhani</td>
+			<td>Pasighat</td>
+			<td>Patiala</td>
+			<td>Patna</td>
+			<td>Pauri</td>
+		</tr>
+		<tr>
+			<td>Pbo Raipur</td>
+			<td>Pendra Road</td>
+			<td>Phalodi</td>
+			<td>Phulbani</td>
+			<td>Pilani</td>
+			<td>Pilibhit</td>
+			<td>Pondicherry</td>
+			<td>Poona</td>
+			<td>Porbandar</td>
+		</tr>
+		<tr>
+			<td>Port Blair</td>
+			<td>Pratapgarh</td>
+			<td>Priyadarshini</td>
+			<td>Punalur</td>
+			<td>Puri</td>
+			<td>Purnea</td>
+			<td>Purulia</td>
+			<td>Pusad</td>
+			<td>Qazi Gund</td>
+		</tr>
+		<tr>
+			<td>Radhanpur</td>
+			<td>Raichur</td>
+			<td>Raigarh</td>
+			<td>Raisen</td>
+			<td>Rajgarh</td>
+			<td>Rajkot</td>
+			<td>Ramgundam</td>
+			<td>Rampur</td>
+			<td>Ranchi</td>
+		</tr>
+		<tr>
+			<td>Rangia</td>
+			<td>Ratlam</td>
+			<td>Ratnagiri</td>
+			<td>Raxaul</td>
+			<td>Rentachintala</td>
+			<td>Rewa</td>
+			<td>Rohtak</td>
+			<td>Roorkee</td>
+			<td>Rourkela</td>
+		</tr>
+		<tr>
+			<td>Sabaur</td>
+			<td>Sagar</td>
+			<td>Sagar Island</td>
+			<td>Salem</td>
+			<td>Sambalpur</td>
+			<td>Sandheads</td>
+			<td>Sangli</td>
+			<td>Sangrur</td>
+			<td>Satara</td>
+		</tr>
+		<tr>
+			<td>Satna</td>
+			<td>Sawai Madhopur</td>
+			<td>Seoni</td>
+			<td>Shahjahanpur</td>
+			<td>Shajapur</td>
+			<td>Shanti Niketan</td>
+			<td>Sheopur</td>
+			<td>Shillong</td>
+			<td>Shimla</td>
+		</tr>
+		<tr>
+			<td>Shimoga</td>
+			<td>Shirali</td>
+			<td>Shivpuri</td>
+			<td>Sholapur</td>
+			<td>Sibsagar</td>
+			<td>Sidhi</td>
+			<td>Sikar</td>
+			<td>Silchar</td>
+			<td>Siliguri</td>
+		</tr>
+		<tr>
+			<td>Sironcha</td>
+			<td>Sonamarg</td>
+			<td>Srinagar</td>
+			<td>Sultanpur</td>
+			<td>Sundargarh</td>
+			<td>Supaul</td>
+			<td>Surat</td>
+			<td>Surendranagar</td>
+			<td>Tangla</td>
+		</tr>
+		<tr>
+			<td>Tehri</td>
+			<td>Tezpur</td>
+			<td>Tezpur - Bindukuri</td>
+			<td>Thanjavur</td>
+			<td>Thiruvananthapuram</td>
+			<td>Thiruvananthapuram Airport</td>
+			<td>Tikamgarh</td>
+			<td>Tirupathi</td>
+			<td>Tiruppattur</td>
+		</tr>
+		<tr>
+			<td>Tiruttani</td>
+			<td>Titlagarh</td>
+			<td>Tondi</td>
+			<td>Tonk</td>
+			<td>Triuchirapalli</td>
+			<td>Trivandrum MET.OBS.</td>
+			<td>Tuensang</td>
+			<td>Tumkur</td>
+			<td>Tuni</td>
+		</tr>
+		<tr>
+			<td>Tura</td>
+			<td>Tuticorin New Port</td>
+			<td>Udaipur</td>
+			<td>Udaipur Dabok</td>
+			<td>Udhagamandalam</td>
+			<td>Ujjain</td>
+			<td>Uluberia</td>
+			<td>Umaria</td>
+			<td>Una</td>
+		</tr>
+		<tr>
+			<td>Uttarkashi</td>
+			<td>Vallabh Vidyanagar</td>
+			<td>Varanasi</td>
+			<td>Varanasi - Babatpur</td>
+			<td>Vedaranniyam</td>
+			<td>Vellore</td>
+			<td>Vengurla</td>
+			<td>Veraval</td>
+			<td>Vidisha</td>
+		</tr>
+		<tr>
+			<td>Vijayawada</td>
+			<td>Vijayawada - Gannavaram</td>
+			<td>Visakhapatnam</td>
+			<td>Wardha</td>
+			<td>Yeotmal</td>
+			<td>Ziro</td>
+		</tr>
+	</table>
+	</div>
+	<footer style="clear:both;font-size:12px;text-align:center;text-decoration:none;color:#1e90ff;">
+		<hr style="color:#660000;">
+		&copy; All Rights Reserverd with Him_Coder. <br/>While using this site, you've already agreed to accept our terms of use and privacy policy.
+		<hr  style="color:#660000;">
+	</footer>
+</body>
+</html>

@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+
+<script type="text/javaScript">
+function clearplaceholder()
+{
+document.form1.city.placeholder = ""
+}
+function resetdefault()
+{
+document.form1.city.placeholder = "e.g. Shimla, Kyelong, Manali..."
+}
+function scrollTo(hash) {
+    location.hash = "#" + hash;
+}
+</script>
+
+<head>
+	<meta charset="utf-8"></meta>
+	<link rel="stylesheet" href="/static/stylesheet/main.css" type="text/css"/>
+	<link rel="icon" href="/static/images/favicon.ico" type="SHORTCUT ICON"/>
+	<title>StartlingAppsKit</title>
+</head>
+<body id="body">
+	<header id="header">
+		<span id="header_content">
+			<a href="/">
+				<span id="headertext">Startling Apps Kit</span>
+				<span id="headertext2">*(Experimental version)*</span>
+			</a>
+			<span id="tw">
+			<a href="http://www.google.com">
+				<label id="googlelabel" title="Go to Google">Browse Google</label>
+			</a>
+			</span>
+		</span>
+	</header>
+	<nav id="main_nav">|| 
+		<a href="/" class="nav_others">Home</a>  ||
+		<a href="/crawler" class="nav_others" title="Crawl a Web Page">Crawler</a>  ||
+		<a href="/dictionary" class="nav_others" title="Online Dictionary">Dictionary</a>  ||
+		<a href="/weather_report" id="nav_current" title="Get Weather Report">Weather Report</a> ||
+		<a href="http://www.qbingapp.appspot.com" class="nav_others" title="Go to Qbing">QBing</a>
+		<img src="/static/images/new.gif" width="20" style="vertical-align:super;"> ||
+		<span id="nav_text" title="Developer and Designer: Kunal Sharma">(From ||Him_Coder||&reg; Python Development Unit)
+		</span>
+	</nav>
+	<div id="rightside_links">
+				<span>Share</span><br><br>
+				<div>
+					<a href="https://www.facebook.com/pages/Startling-apps/313810505407653">
+						<img src="/static/images/facebook.png" title="Like Us"
+							width="30px" height="30px"/></a><br>
+					<a href="https://twitter.com/ksworld92">
+						<img src="/static/images/twitter.png" title="Follow Us"
+							width="30px" height="30px"/></a><br>
+					<a href="https://plus.google.com/b/102467185781267913385/102467185781267913385/about">
+						<img src="/static/images/google.png" title="+1 Us"
+							width="30px" height="30px"/></a><br>
+					<a href="http://www.yahoo.com/">
+						<img src="/static/images/yahoo.png" title="Go to Yahoo.com"
+							width="30px" height="30px"/></a><br>
+					<a href="http://www.youtube.com/">
+						<img src="/static/images/youtube.png" title="Go to Youtube.com"
+							width="30px" height="30px"/></a><br>
+					<a href="http://www.skype.com/">
+						<img src="/static/images/skype.png" title="Go to Skype.com"
+							width="30px" height="30px"/></a><br>
+					<a href="http://www.amazon.com/">
+						<img src="/static/images/amazon.png" title="Go to Amazon.com"
+							width="30px" height="30px"/></a>
+				</div>
+	</div>
+	<div id="body_div_weather_get">
+		<div id="request_box_div">
+			<div id="request_box_header">Welcome to Weather Report</div>
+			<form id="request_box_content" name="form1" method="post" autocomplete="off" onsubmit="resetdefault();">
+				<div id="div_label1" >Enter a Location:
+					<input type="text" name="city"  placeholder="{{errata}}"
+						onblur="resetdefault();" onclick="clearplaceholder();"
+						style="padding:4px;color:#1E90FF;margin-left:30px;width:250px;"/>
+					<div style="margin-top:10px;">
+						<span style="float:left;font-size:13px;color:#BABABA;">
+							<a href="/locations" style="text-decoration:none;color:#BABABA;">
+							Locations in India???
+							</a>
+						</span>
+					</div>
+				</div>
+				<div id="div_label2">
+					<input type="submit" value="Search" title="Search" class="button"/>
+				</div>
+			</form>
+		</div>
+		<center>
+			<div style="font-size:15px;"><a href="http://startlingapps.appspot.com/"
+						 style="text-decoration:none;color:#1e90ff;font-weight:bold;">Click Me</a>
+					<span style="color:#660000;"> to launch new look of 'Startling Apps'.</span></div>
+		</center>
+	</div>	
+	<footer style="clear:both;font-size:12px;text-align:center;text-decoration:none;color:#1e90ff;">
+		<hr style="color:#1e90ff;">
+		&copy; All Rights Reserverd with Him_Coder. <br>While using this site, you've already agreed to accept our terms of use and privacy policy.
+		<hr style="color:#1e90ff;">
+	</footer>
+</body>
+</html>

@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+
+<script type="text/JavaScript">
+function timedRefresh(timeoutPeriod) {
+	setTimeout("location.reload(true);",timeoutPeriod);
+}
+function clearplaceholder()
+{
+document.form1.googly.placeholder = ""
+}
+function resetdefault()
+{
+document.form1.googly.placeholder = "Your Google Query???"
+}
+</script>
+
+<head>
+	<link rel="stylesheet" href="/static/stylesheet/main.css" type="text/css"/>
+	<link rel="icon" href="/static/images/favicon.ico" type="SHORTCUT ICON"/>
+	<title>StarlingAppsKit</title>
+	<meta charset="utf-8"></meta>
+</head>
+<body id="body">
+	<div>
+	<header id="header">
+		<span id="header_content">
+			<a href="/">
+				<span id="headertext">Startling Apps Kit</span>
+				<span id="headertext2">*(Experimental version)*</span>
+			</a>
+			<span id="tw_home_page">
+				<form name="form1"  onsubmit="resetdefault();" autocomplete="off" method="post">
+				<input id="google_text" type="text" name="googly" placeholder="{{placeholder}}" 
+					onclick="clearplaceholder();" onblur="resetdefault();"/>
+				<input id="google_button" type="submit" name="go" value="Google"/>
+				</form>
+			</span>
+		</span>
+	</header>
+	<nav id="main_nav">|| 
+		<a href="/" id="nav_current" >Home</a>  ||
+		<a href="/crawler" class="nav_others" title="Crawl a Web Page">Crawler</a>  ||
+		<a href="/dictionary" class="nav_others" title="Online Dictionary" >Dictionary</a>  ||
+		<a href="/weather_report" class="nav_others" title="Get Weather Report" >Weather</a> ||
+		<a href="http://www.qbingapp.appspot.com" class="nav_others" title="Go to Qbing">QBing</a> ||
+		<span id="nav_text" title="Developer and Designer: Kunal Sharma">(From ||Him_Coder||&reg; Python Development Unit)
+		</span>
+	</nav>
+	<div id="rightside_links">
+				<span>Share</span><br><br>
+				<div>
+					<a href="https://www.facebook.com/pages/Startling-apps/313810505407653">
+						<img src="/static/images/facebook.png" title="Like Us"
+							width="30px" height="30px"/></a><br>
+					<a href="https://twitter.com/ksworld92">
+						<img src="/static/images/twitter.png" title="Follow Us"
+							width="30px" height="30px"/></a><br>
+					<a href="https://plus.google.com/b/102467185781267913385/102467185781267913385/about">
+						<img src="/static/images/google.png" title="+1 Us"
+							width="30px" height="30px"/></a><br>
+					<a href="http://www.yahoo.com/">
+						<img src="/static/images/yahoo.png" title="Go to Yahoo.com"
+							width="30px" height="30px"/></a><br>
+					<a href="http://www.youtube.com/">
+						<img src="/static/images/youtube.png" title="Go to Youtube.com"
+							width="30px" height="30px"/></a><br>
+					<a href="http://www.skype.com/">
+						<img src="/static/images/skype.png" title="Go to Skype.com"
+							width="30px" height="30px"/></a><br>
+					<a href="http://www.amazon.com/">
+						<img src="/static/images/amazon.png" title="Go to Amazon.com"
+							width="30px" height="30px"/></a>
+				</div>
+	</div>
+	<div id="main_page_body_div_home">			
+			<div id="left_body_div">
+				<div style="font-family: Times New Roman;
+						color:#8B2252;cursor:default;font-size:25px;font-weight:bold;margin-left:15px;">
+						Welcome to Startling Apps Kit</div>
+				<p class="main_p_home">
+					Startling Apps Kit is a small apps store. This App 
+					Store is designed, developed and deployed by   Kunal Sharma, 3rd Year Student at 
+					<a href="http://www.hpuiitshimla.org" style="text-decoration:none;color:black;">UIIT Shimla</a>,
+					Himachal Pradesh, India in Jan.-Feb. 2013.
+					This Apps Kit works with the help of
+						<ul>
+							<li>PYTHON</li>
+							<li>GOOGLE APP ENGINE</li>
+							<li>JAVASCRIPT</li>
+							<li>HTML, YAML</li>
+							<li>CSS etc.</li>
+						</ul>
+				</p>
+				<p class="main_p_home">
+					I love innovations. So hope you will like these apps.<br>
+					My other developments(fully graphical and interactive)
+					<ul>
+						<li>Snake Game(C)</li>
+						<li>Tic-Tac-Toe(C)</li>
+						<li>Calendar(C)</li>
+						<li>MasterMinds Game(Python)</li>
+						<li>GoogleSearchBox(Python) and many more...</li>
+					</ul>
+				<a href="http://startlingapps.appspot.com/" style="color:#1e90ff;text-decoration:none;font-weight:bold;">
+					Click Me</a> to visit new version of 'Startling Apps'.
+				</p>
+				<p class="main_p_home_left_last">
+				We are good at C, C++, Python, Data Structures and Algorithms, Unix, HTML, CSS and 					JavaScript.
+				<br><br>Contact:<br>(1) kunaluiit@hotmail.com<br>(2) er_kunal_sharma@hotmail.com
+				</p>
+			</div>
+			<div id="right_body_div">
+				<div style="color:#8B2252;font-weight:bold;padding-bottom:10px;">Himachal (India): The Startling State</div>
+				<div id="rightside_box_image1">
+					<a href="/static/images/{{right1}}.jpg" style="text-decoration:none;">
+						<img src="/static/images/{{right1}}.jpg" title="{{title1}}"
+							style="border:1px solid #EBEBEB;" width="380px" height="260px">
+					</a>
+					<div style="text-align:center;color:#660000;">{{title1}}</div><br>
+				</div>
+				<div id="rightside_box_image2">
+					<a href="/static/images/{{right2}}.jpg" style="text-decoration:none;">
+						<img id="img1" src="/static/images/{{right2}}.jpg" title="{{title2}}"
+							style="border:1px solid #EBEBEB;" width="380px" height="260px">
+					</a>
+					<div style="text-align:center;color:#660000;">{{title2}}</div>
+				</div>
+			</div>
+		</div>
+	<footer style="clear:both;font-size:12px;text-align:center;text-decoration:none;color:#1e90ff;">
+		<hr style="color:#660000;">
+		&copy; All Rights Reserverd with Him_Coder. <br>While using this site, you've already agreed to accept our terms of use and privacy policy.
+		<hr style="color:#660000;">
+	</footer>
+	</div>
+</body>
+</html>
