@@ -1,0 +1,171 @@
+/*----------------CSS for QBING---------------------*/
+#body
+{
+	margin:0px;
+	padding:0px;
+	width:100%;
+	height:100%;
+	background:url('/static/images/background.jpg');
+}
+#body hr
+{
+	color:#1e90ff;
+	-moz-box-shadow: 0 0 5px #1e90ff;
+	-webkit-box-shadow: 0 0 5px #1e90ff;
+	box-shadow: 0 0 5px #1e90ff;
+}
+#links_get
+{
+	position:fixed;
+	margin-top:20px;
+	padding:10px;
+	margin-left:5px;
+	border-right:1px solid #1e90ff;
+	border-left:1px solid #1e90ff;
+}
+#links_post
+{
+	position:fixed;
+	margin-top:10px;
+	padding:10px;
+	margin-left:94%;
+	border-right:1px solid #1e90ff;
+	border-left:1px solid #1e90ff;
+}
+#like_facebook
+{
+	margin-left:5px;
+}
+#like_google
+{
+	margin-left:5px;
+}
+#like_facebook:hover
+{
+	background:#ebebeb;
+}
+#like_google:hover
+{
+	background:#ebebeb;
+}
+#header
+{
+	cursor:default;
+	clear:both;
+	height:35px;
+	overflow:hidden;
+}
+#app_body_content
+{
+	height:100%;
+	width:78%;
+	background:white;
+	cursor:default;
+	overflow:hidden;
+	margin-left:10%;
+	margin-top:20px;
+	border:2px solid #BABABA;
+	overflow:hidden;
+}
+#app_body_content_left
+{
+	overflow:hidden;
+	padding-left:15px;
+	padding-right:15px;
+	padding-top:15px;
+	width:58%;
+	float:left;
+	color:#660000;
+	border-right:2px solid #EBEBEB;
+}
+#app_body_content_right
+{
+	float:right;
+	background:white;
+	padding-left:15px;
+	padding-right:15px;
+	padding-top:15px;
+	width:35%;
+	color:#660000;
+	height:100%;
+}
+#search_holder
+{
+	overflow:hidden;
+}
+#search_box
+{
+	overflow:hidden;
+	margin-top:20px;
+	border:2px solid #1e90ff;
+	-moz-border-radius: 10px;
+	border-radius:10px;
+	padding:10px;
+	width:500px;
+}
+#input_box
+{
+	width:300px;
+	color:#660000;
+	background:white;
+	padding:5px;
+	font-size:15px;
+	border:2px solid #EBEBEB;
+}
+#button
+{
+	margin-left:20px;
+	width:100px;
+	color:#660000;
+	background:white;
+	padding:5px;
+	font-size:15px;
+	border:2px solid #BABABA;
+}
+#button:hover
+{
+	color:#1e90ff;
+	cursor:pointer;
+	border:2px solid #660000;
+}
+#new_search
+{
+	margin-left:5px;
+	margin-top:10px;
+	position:fixed;
+}
+#new_search input
+{
+	color:#1e90ff;
+	border:2px solid #660000;
+	cursor:pointer;
+}
+#new_search input:hover
+{
+	color:#660000;
+	border:2px solid #1e90ff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
